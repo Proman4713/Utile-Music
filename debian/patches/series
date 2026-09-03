@@ -1,2 +1,4 @@
+002_change_app_name_to_gapless.patch
+003_change_desktop_name_to_music.patch
 000_remove_flatpak.patch
 001_change_bug_report_url.patch

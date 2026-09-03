@@ -1,0 +1,45 @@
+Index: gapless/data/app.desktop.in
+===================================================================
+--- gapless.orig/data/app.desktop.in
++++ gapless/data/app.desktop.in
+@@ -2,7 +2,7 @@
+ Name=Gapless
+ GenericName=Music Player
+ Comment=Play your music elegantly
+-Exec=g4music %U
++Exec=gapless %U
+ Icon=@app_id@
+ Terminal=false
+ Type=Application
+Index: gapless/data/app.service.in
+===================================================================
+--- gapless.orig/data/app.service.in
++++ gapless/data/app.service.in
+@@ -1,3 +1,3 @@
+ [D-BUS Service]
+ Name=@app_id@
+-Exec=@bindir@/g4music --gapplication-service
+\ No newline at end of file
++Exec=@bindir@/gapless --gapplication-service
+\ No newline at end of file
+Index: gapless/src/meson.build
+===================================================================
+--- gapless.orig/src/meson.build
++++ gapless/src/meson.build
+@@ -49,6 +49,7 @@ configure_file(output: 'config.h', confi
+ 
+ c_name = meson.project_name()
+ res_name = c_name + '-resources'
++binary_name = 'gapless'
+ 
+ sources += gnome.compile_resources(res_name,
+   'gresource.xml',
+@@ -57,7 +58,7 @@ sources += gnome.compile_resources(res_n
+ 
+ add_project_arguments('-I' + meson.current_source_dir () + '/gst/', language: 'c')
+ 
+-executable(c_name, sources,
++executable(binary_name, sources,
+   vala_args: [
+     # meson.current_source_dir () + '/config.vapi',
+     meson.current_source_dir () + '/gst/gst-ext.vapi',

@@ -1,3 +1,10 @@
+gapless (4.6.2-1utile2) abstract; urgency=medium
+
+  * Change app binary from g4music to gapless
+  * Change app desktop name from Gapless to Music
+
+ -- Aaser Abd-el Sabour <proman4713@gmail.com>  Fri, 04 Sep 2026 01:50:16 +0300
+
 gapless (4.6.2-1utile1) abstract; urgency=medium
 
   * Initial release.

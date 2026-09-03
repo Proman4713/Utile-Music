@@ -2,3 +2,7 @@
 
 %:
 	dh $@ --buildsystem=meson
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf build/ builddir/ .ninja_deps

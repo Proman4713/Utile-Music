@@ -1,0 +1,50 @@
+Index: gapless/data/app.desktop.in
+===================================================================
+--- gapless.orig/data/app.desktop.in
++++ gapless/data/app.desktop.in
+@@ -1,5 +1,5 @@
+ [Desktop Entry]
+-Name=Gapless
++Name=Music
+ GenericName=Music Player
+ Comment=Play your music elegantly
+ Exec=gapless %U
+Index: gapless/data/app.metainfo.xml.in
+===================================================================
+--- gapless.orig/data/app.metainfo.xml.in
++++ gapless/data/app.metainfo.xml.in
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <component type="desktop-application">
+     <id>@app_id@</id>
+-    <name>Gapless</name>
++    <name>Music</name>
+     <metadata_license>CC0-1.0</metadata_license>
+     <project_license>GPL-3.0-or-later</project_license>
+     <summary>Play your music elegantly</summary>
+Index: gapless/src/main.vala
+===================================================================
+--- gapless.orig/src/main.vala
++++ gapless/src/main.vala
+@@ -21,7 +21,7 @@ int main (string[] args) {
+     Intl.textdomain (Config.CODE_NAME);
+ 
+     Environment.set_prgname (Config.APP_ID);
+-    Environment.set_application_name (_("Gapless"));
++    Environment.set_application_name (_("Music"));
+     fix_gst_tag_encoding ();
+ 
+     Random.set_seed ((uint32) get_monotonic_time ());
+Index: gapless/src/application.vala
+===================================================================
+--- gapless.orig/src/application.vala
++++ gapless/src/application.vala
+@@ -272,7 +272,7 @@ namespace G4 {
+ 
+         public string name {
+             get {
+-                return _("Gapless");
++                return _("Music");
+             }
+         }
+ 
