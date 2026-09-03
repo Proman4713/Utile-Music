@@ -1,12 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: g4music
-Upstream-Contact: Nanling <neithern@outlook.com>
-Source: https://github.com/neithern/g4music
+Source: https://github.com/Proman4713/Utile-Music
 
 Files: *
-Copyright: 2022, Nanling <neithern@outlook.com>
-License: GPL-3.0+
-
-Files: debian/*
+       debian/*
 Copyright: 2026, Aaser Abd-el Sabour <proman4713@gmail.com>
 License: GPL-3.0-only
