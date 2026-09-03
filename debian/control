@@ -1,0 +1,19 @@
+Source: gapless
+Section: gnome
+Priority: optional
+Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+               meson,
+               ninja-build,
+               valac,
+               libgtk-4-dev,
+               libadwaita-1-dev,
+               libgstreamer1.0-dev,
+               libgstreamer-plugins-base1.0-dev,
+               gettext
+Homepage: https://github.com/Proman4713/Gapless
+
+Package: gapless
+Architecture: any
+Description: Gapless music player for Utile OS
+Depends: ${misc:Depends}, ${shlibs:Depends}

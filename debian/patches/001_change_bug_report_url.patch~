@@ -1,0 +1,26 @@
+Index: g4music/g4music.doap
+===================================================================
+--- g4music.orig/g4music.doap
++++ g4music/g4music.doap
+@@ -9,7 +9,7 @@
+   <description xml:lang="en">A fast, fluent, light weight music player written in GTK4, with a beautiful, adaptive user interface.</description>
+   <category rdf:resource="http://api.gnome.org/doap-extensions#apps" />
+   <homepage rdf:resource="https://gitlab.gnome.org/neithern/g4music" />
+-  <bug-database rdf:resource="https://gitlab.gnome.org/neithern/g4music/issues" />
++  <bug-database rdf:resource="https://utile-os-web.mailworker.workers.dev" />
+ 
+   <programming-language>Vala</programming-language>
+   <platform>GTK 4</platform>
+Index: g4music/data/app.metainfo.xml.in
+===================================================================
+--- g4music.orig/data/app.metainfo.xml.in
++++ g4music/data/app.metainfo.xml.in
+@@ -12,7 +12,7 @@
+     <update_contact>neithern@outlook.com</update_contact>
+ 
+     <url type="homepage">https://gitlab.gnome.org/neithern/g4music</url>
+-    <url type="bugtracker">https://gitlab.gnome.org/neithern/g4music/issues</url>
++    <url type="bugtracker">https://utile-os-web.mailworker.workers.dev</url>
+     <url type="translate">https://l10n.gnome.org/module/g4music</url>
+ 
+     <launchable type="desktop-id">@app_id@.desktop</launchable>
