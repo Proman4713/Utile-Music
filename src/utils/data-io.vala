@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     //  Use BIG_ENDIAN, same as DataInputStream's default byte order
     public class DataInputBytes : Object {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <requires lib="gtk" version="4.0"/>
-  <template class="G4PreferencesWindow" parent="AdwPreferencesWindow">
+  <template class="UtileMusicPreferencesWindow" parent="AdwPreferencesWindow">
     <property name="default-width">480</property>
     <child>
       <object class="AdwPreferencesPage">

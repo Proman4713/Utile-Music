@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the g4music package.
+# This file is distributed under the same license as the utile-music package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: g4music\n"
+"Project-Id-Version: utile-music\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-11 09:34+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: data/app.desktop.in:3 data/app.metainfo.xml.in:4 src/application.vala:277
 #: src/main.vala:24
-msgid "Gapless"
+msgid "Utile Music"
 msgstr ""
 
 #: data/app.desktop.in:4

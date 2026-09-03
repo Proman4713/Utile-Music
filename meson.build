@@ -1,10 +1,10 @@
 project(
-  'g4music', [ 'vala', 'c' ],
-  version: '4.6.2',
+  'utile-music', [ 'vala', 'c' ],
+  version: '1.0.0',
   license: 'GPL3'
 )
 
-app_id = 'com.github.neithern.' + meson.project_name()
+app_id = 'com.github.proman4713.' + meson.project_name()
 version = meson.project_version()
 
 gnome = import('gnome')

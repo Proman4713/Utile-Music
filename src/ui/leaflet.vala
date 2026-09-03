@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     namespace ContentWidth {
         public const int MIN = 340;

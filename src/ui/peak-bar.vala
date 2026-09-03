@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public class PeakBar : Gtk.Widget {
         private unichar[] _chars = { '=', 0 };

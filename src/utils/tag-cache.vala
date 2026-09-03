@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public class TagCache {
         private static uint32 MAGIC = 0x54414733; //  'TAG3'

@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public const string ACTION_APP = "app.";
     public const string ACTION_ABOUT = "about";

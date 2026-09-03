@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public class Application : Adw.Application {
         private ActionHandles? _actions = null;
@@ -272,7 +272,7 @@ namespace G4 {
 
         public string name {
             get {
-                return _("Music");
+                return _("Utile Music");
             }
         }
 

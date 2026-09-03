@@ -15,5 +15,5 @@ Homepage: https://github.com/Proman4713/Utile-Music
 
 Package: utile-music
 Architecture: any
-Description: Utile Music is an elegant music player for Linux based on Gapless designed for Utile OS
+Description: Utile Music is an elegant music player for Linux designed for Utile OS
 Depends: ${misc:Depends}, ${shlibs:Depends}

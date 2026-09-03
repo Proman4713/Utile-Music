@@ -49,7 +49,7 @@ configure_file(output: 'config.h', configuration: conf)
 
 c_name = meson.project_name()
 res_name = c_name + '-resources'
-binary_name = 'gapless'
+binary_name = 'utile-music'
 
 sources += gnome.compile_resources(res_name,
   'gresource.xml',

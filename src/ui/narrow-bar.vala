@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public class NarrowBar : Gtk.Widget {
         private Gtk.Widget? _child = null;

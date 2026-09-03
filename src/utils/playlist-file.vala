@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     namespace PlayListType {
         public const uint NONE = 0;

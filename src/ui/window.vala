@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public class Window : Adw.ApplicationWindow {
         private Adw.ToastOverlay _toast = new Adw.ToastOverlay ();

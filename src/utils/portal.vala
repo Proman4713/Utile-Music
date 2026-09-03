@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public class Portal {
         private static string PORTAL_NAME = "org.freedesktop.portal.";

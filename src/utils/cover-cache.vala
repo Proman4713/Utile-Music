@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public class CoverCache : Object {
         private HashTable<string, string?> _cache = new HashTable<string, string?> (str_hash, str_equal);

@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public class GstPlayer : Object {
 

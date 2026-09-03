@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public class Event {
         private Cond _cond = Cond ();

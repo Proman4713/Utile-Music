@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public enum EllipsizeMode {
         NONE = Pango.EllipsizeMode.NONE,

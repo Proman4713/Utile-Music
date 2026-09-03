@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     namespace PageName {
         public const string ALBUM = "album";

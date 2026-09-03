@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     namespace SortMode {
         public const uint ALBUM = 0;

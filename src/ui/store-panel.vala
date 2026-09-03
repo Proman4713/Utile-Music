@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     namespace SearchMode {
         public const uint ANY = 0;
@@ -24,7 +24,7 @@ namespace G4 {
         public const uint LAST = 4;
     }
 
-    [GtkTemplate (ui = "/com/github/neithern/g4music/gtk/store-panel.ui")]
+    [GtkTemplate (ui = "/com/github/proman4713/utile-music/gtk/store-panel.ui")]
     public class StorePanel : Gtk.Box, SizeWatcher {
         [GtkChild]
         public unowned Gtk.HeaderBar header_bar;

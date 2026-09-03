@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
     public const string UNKNOWN_ALBUM = _("Unknown Album");
     public const string UNKNOWN_ARTIST = _("Unknown Artist");
 

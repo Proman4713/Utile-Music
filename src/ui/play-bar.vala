@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public class PlayBar : Gtk.Box {
         private Gtk.Scale _seek = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, null);

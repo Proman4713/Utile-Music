@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schemalist gettext-domain="g4music">
-  <schema id="@app_id@" path="/com/github/neithern/g4music/">
+<schemalist gettext-domain="utile-music">
+  <schema id="@app_id@" path="/com/github/proman4713/utile-music/">
     <key name="blur-mode" type="u">
       <range min="0" max="2"/>
       <default>1</default>

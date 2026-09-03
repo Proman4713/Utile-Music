@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     [DBus (name = "org.mpris.MediaPlayer2.Player")]
     public class MprisPlayer : Object {

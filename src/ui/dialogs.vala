@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
 #if ADW_1_5
     public class Dialog : Adw.Dialog {
@@ -50,7 +50,7 @@ namespace G4 {
         string[] authors = { "Nanling" };
         /* Translators: Replace "translator-credits" with your names, one name per line */
         var translator_credits = _("translator-credits");
-        var website = "https://gitlab.gnome.org/neithern/g4music";
+        var website = "https://github.com/Proman4713/Utile-Music";
         var parent = Window.get_default ();
 #if ADW_1_5
         var win = new Adw.AboutDialog ();

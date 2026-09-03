@@ -2,7 +2,7 @@
 Name=Music
 GenericName=Music Player
 Comment=Play your music elegantly
-Exec=gapless %U
+Exec=utile-music %U
 Icon=@app_id@
 Terminal=false
 Type=Application

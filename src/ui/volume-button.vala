@@ -1,4 +1,4 @@
-namespace G4 {
+namespace UtileMusic {
 
     public class VolumeButton : Gtk.ScaleButton, Gtk.Accessible, Gtk.Buildable, Gtk.ConstraintTarget, Gtk.Orientable {
 
