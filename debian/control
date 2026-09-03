@@ -1,4 +1,4 @@
-Source: gapless
+Source: utile-music
 Section: gnome
 Priority: optional
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
@@ -11,9 +11,9 @@ Build-Depends: debhelper-compat (= 13),
                libgstreamer1.0-dev,
                libgstreamer-plugins-base1.0-dev,
                gettext
-Homepage: https://github.com/Proman4713/Gapless
+Homepage: https://github.com/Proman4713/Utile-Music
 
-Package: gapless
+Package: utile-music
 Architecture: any
-Description: Gapless music player for Utile OS
+Description: Utile Music is an elegant music player for Linux based on Gapless designed for Utile OS
 Depends: ${misc:Depends}, ${shlibs:Depends}
