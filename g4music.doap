@@ -9,7 +9,7 @@
   <description xml:lang="en">A fast, fluent, light weight music player written in GTK4, with a beautiful, adaptive user interface.</description>
   <category rdf:resource="http://api.gnome.org/doap-extensions#apps" />
   <homepage rdf:resource="https://gitlab.gnome.org/neithern/g4music" />
-  <bug-database rdf:resource="https://gitlab.gnome.org/neithern/g4music/issues" />
+  <bug-database rdf:resource="https://utile-os-web.mailworker.workers.dev" />
 
   <programming-language>Vala</programming-language>
   <platform>GTK 4</platform>

@@ -49,6 +49,7 @@ configure_file(output: 'config.h', configuration: conf)
 
 c_name = meson.project_name()
 res_name = c_name + '-resources'
+binary_name = 'gapless'
 
 sources += gnome.compile_resources(res_name,
   'gresource.xml',
@@ -57,7 +58,7 @@ sources += gnome.compile_resources(res_name,
 
 add_project_arguments('-I' + meson.current_source_dir () + '/gst/', language: 'c')
 
-executable(c_name, sources,
+executable(binary_name, sources,
   vala_args: [
     # meson.current_source_dir () + '/config.vapi',
     meson.current_source_dir () + '/gst/gst-ext.vapi',

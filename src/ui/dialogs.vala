@@ -68,7 +68,7 @@ namespace G4 {
         win.license_type = Gtk.License.GPL_3_0;
         win.developers = authors;
         win.website = website;
-        win.issue_url = "https://gitlab.gnome.org/neithern/g4music/issues";
+        win.issue_url = "https://utile-os-web.mailworker.workers.dev";
         win.translator_credits = translator_credits;
 #if ADW_1_5
         win.present (parent);
