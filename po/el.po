@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/neithern/g4music/issues\n"
-"POT-Creation-Date: 2025-09-11 07:33+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-04 03:15+0300\n"
 "PO-Revision-Date: 2025-09-13 00:09+0300\n"
 "Last-Translator: Dimitris Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: \n"
@@ -18,10 +18,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.7\n"
 
-#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/application.vala:273
-#: src/main.vala:24
-msgid "Gapless"
-msgstr "Gapless"
+#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/main.vala:24
+msgid "Music"
+msgstr ""
 
 #: data/app.desktop.in:3
 msgid "Music Player"
@@ -36,108 +35,22 @@ msgid "music;sound;player;media;audio;playlist;"
 msgstr "music;sound;player;media;audio;playlist;μουσική;λίστα;αναπαραγωγή;τραγούδια;ήχος;πολυμέσα;"
 
 #: data/app.metainfo.xml.in:24
-msgid ""
-"Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
-"focuses on large music collection."
+msgid "Utile Music is an elegant music player for Linux designed for Utile OS."
 msgstr ""
-"Το Gapless (γνωστό κι ως «G4Music») είναι μια λιτή εφαρμογή αναπαραγωγής "
-"μουσικής, γραμμένη σε GTK4, που εστιάζει σε μεγάλες συλλογές μουσικής."
-
-#: data/app.metainfo.xml.in:25
-msgid "Features"
-msgstr "Δυνατότητες"
-
-#: data/app.metainfo.xml.in:27
-msgid ""
-"Supports most music file types, Samba and any other remote protocols "
-"(depends on GIO and GStreamer)."
-msgstr ""
-"Υποστηρίζει τους περισσότερους τύπους αρχείων μουσικής, το Samba και "
-"οποιοδήποτε άλλο απομακρυσμένο πρωτόκολλο (εξαρτάται από τα GIO και "
-"GStreamer)."
-
-#: data/app.metainfo.xml.in:28
-msgid ""
-"Fast loading and parsing thousands of music files in very few seconds, "
-"monitor local changes."
-msgstr ""
-"Γρήγορη φόρτωση και ανάλυση χιλιάδων αρχείων μουσικής σε πολύ λίγα "
-"δευτερόλεπτα, εποπτεία για τοπικές αλλαγές."
-
-#: data/app.metainfo.xml.in:29
-msgid ""
-"Low memory usage for large music collection with album covers (embedded and "
-"external), no thumbnail caches to store."
-msgstr ""
-"Χαμηλή χρήση μνήμης για μεγάλες συλλογές μουσικής με εξώφυλλα άλμπουμ "
-"(ενσωματωμένα και εξωτερικά), χωρίς αποθήκευση προσωρινών μικρογραφιών."
-
-#: data/app.metainfo.xml.in:30
-msgid ""
-"Group and sorts by album/artist/title, shuffle list, full-text searching."
-msgstr ""
-"Ομαδοποίηση και ταξινόμηση κατά άλμπουμ/καλλιτέχνη/τίτλο, τυχαία "
-"αναπαραγωγή λίστας, αναζήτηση πλήρους κειμένου."
-
-#: data/app.metainfo.xml.in:31
-msgid ""
-"Fluent adaptive user interface for different screen (Desktop, Tablet, "
-"Mobile)."
-msgstr ""
-"Ευέλικτο και προσαρμοστικό γραφικό περιβάλλον για διαφορετικές οθόνες "
-"(υπολογιστές, tablet, κινητές συσκευές)."
-
-#: data/app.metainfo.xml.in:32
-msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
-msgstr ""
-"Γκαουσιανό θόλωμα εξωφύλλου ως εφέ παρασκηνίου, προσαρμογή στην "
-"ανοιχτόχρωμη/σκουρόχρωμη λειτουργία του GNOME."
-
-#: data/app.metainfo.xml.in:33
-msgid ""
-"Supports creating and editing playlists, drag cover to change order or add "
-"to another playlist."
-msgstr ""
-"Υποστηρίζει δημιουργία και επεξεργασία λιστών αναπαραγωγής, μεταφορά "
-"εξώφυλλων για αλλαγή της σειράς ή προσθήκη σε άλλη λίστα αναπαραγωγής."
-
-#: data/app.metainfo.xml.in:34
-msgid "Supports drag and drop with other apps."
-msgstr "Υποστηρίζει μεταφορά και απόθεση με άλλες εφαρμογές."
 
 #: data/app.metainfo.xml.in:35
-msgid "Supports audio peaks visualizer."
-msgstr "Υποστηρίζει οπτικοποίηση κορυφώσεων ήχου."
-
-#: data/app.metainfo.xml.in:36
-msgid "Supports gapless playback."
-msgstr "Υποστηρίζει απρόσκοπτη αναπαραγωγή."
-
-#: data/app.metainfo.xml.in:37
-msgid "Supports normalizing volume with ReplayGain."
-msgstr "Υποστηρίζει κανονικοποίηση έντασης με το ReplayGain."
-
-#: data/app.metainfo.xml.in:38
-msgid "Supports specified audio sink."
-msgstr "Υποστηρίζει ορισμό συγκεκριμένης διεπαφής ήχου."
-
-#: data/app.metainfo.xml.in:39
-msgid "Supports MPRIS control."
-msgstr "Υποστηρίζει έλεγχο MPRIS."
-
-#: data/app.metainfo.xml.in:50
 msgid "Main window"
 msgstr "Κύριο παράθυρο"
 
-#: data/app.metainfo.xml.in:54
+#: data/app.metainfo.xml.in:39
 msgid "Albums view"
 msgstr "Προβολή άλμπουμ"
 
-#: data/app.metainfo.xml.in:58
+#: data/app.metainfo.xml.in:43
 msgid "Playing view"
 msgstr "Προβολή αναπαραγωγής"
 
-#: data/app.metainfo.xml.in:62
+#: data/app.metainfo.xml.in:47
 msgid "Playlist view"
 msgstr "Προβολή λιστών αναπαραγωγής"
 
@@ -236,7 +149,7 @@ msgstr "Προβολή πλέγματος για καλλιτέχνες/άλμπ
 msgid "Single click to activate item"
 msgstr "Ενεργοποίηση στοιχείων με ένα κλικ"
 
-#: src/gtk/preferences.ui:56 src/application.vala:434
+#: src/gtk/preferences.ui:56 src/application.vala:436
 msgid "Keep playing after window closed"
 msgstr "Συνέχεια αναπαραγωγής μετά το κλείσιμο του παραθύρου"
 
@@ -376,19 +289,23 @@ msgstr "Επιτυχής εξαγωγή εξώφυλλου"
 msgid "Export cover failed"
 msgstr "Αποτυχία εξαγωγής εξώφυλλου"
 
-#: src/application.vala:346
+#: src/application.vala:275
+msgid "Utile Music"
+msgstr ""
+
+#: src/application.vala:348
 msgid "Save playlist failed"
 msgstr "Αποτυχία αποθήκευσης λίστας αναπαραγωγής"
 
-#: src/application.vala:470
+#: src/application.vala:472
 msgid "Playlist Files"
 msgstr "Αρχεία λιστών αναπαραγωγής"
 
-#: src/application.vala:485
+#: src/application.vala:487
 msgid "Save playlist successfully"
 msgstr "Επιτυχής αποθήκευση λίστας αναπαραγωγής"
 
-#: src/application.vala:620
+#: src/application.vala:622
 msgid "Keep playing"
 msgstr "Συνέχεια αναπαραγωγής"
 
@@ -573,7 +490,7 @@ msgstr "Αντιγραφή"
 msgid "Volume %d%%"
 msgstr "Ένταση: %d%%"
 
-#: src/ui/window.vala:126
+#: src/ui/window.vala:127
 msgid "Show"
 msgstr "Εμφάνιση"
 
@@ -584,3 +501,81 @@ msgstr "Άγνωστο άλμπουμ"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Άγνωστος καλλιτέχνης"
+
+#~ msgid "Gapless"
+#~ msgstr "Gapless"
+
+#~ msgid ""
+#~ "Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
+#~ "focuses on large music collection."
+#~ msgstr ""
+#~ "Το Gapless (γνωστό κι ως «G4Music») είναι μια λιτή εφαρμογή αναπαραγωγής "
+#~ "μουσικής, γραμμένη σε GTK4, που εστιάζει σε μεγάλες συλλογές μουσικής."
+
+#~ msgid "Features"
+#~ msgstr "Δυνατότητες"
+
+#~ msgid ""
+#~ "Supports most music file types, Samba and any other remote protocols "
+#~ "(depends on GIO and GStreamer)."
+#~ msgstr ""
+#~ "Υποστηρίζει τους περισσότερους τύπους αρχείων μουσικής, το Samba και "
+#~ "οποιοδήποτε άλλο απομακρυσμένο πρωτόκολλο (εξαρτάται από τα GIO και "
+#~ "GStreamer)."
+
+#~ msgid ""
+#~ "Fast loading and parsing thousands of music files in very few seconds, "
+#~ "monitor local changes."
+#~ msgstr ""
+#~ "Γρήγορη φόρτωση και ανάλυση χιλιάδων αρχείων μουσικής σε πολύ λίγα "
+#~ "δευτερόλεπτα, εποπτεία για τοπικές αλλαγές."
+
+#~ msgid ""
+#~ "Low memory usage for large music collection with album covers (embedded "
+#~ "and external), no thumbnail caches to store."
+#~ msgstr ""
+#~ "Χαμηλή χρήση μνήμης για μεγάλες συλλογές μουσικής με εξώφυλλα άλμπουμ "
+#~ "(ενσωματωμένα και εξωτερικά), χωρίς αποθήκευση προσωρινών μικρογραφιών."
+
+#~ msgid ""
+#~ "Group and sorts by album/artist/title, shuffle list, full-text searching."
+#~ msgstr ""
+#~ "Ομαδοποίηση και ταξινόμηση κατά άλμπουμ/καλλιτέχνη/τίτλο, τυχαία "
+#~ "αναπαραγωγή λίστας, αναζήτηση πλήρους κειμένου."
+
+#~ msgid ""
+#~ "Fluent adaptive user interface for different screen (Desktop, Tablet, "
+#~ "Mobile)."
+#~ msgstr ""
+#~ "Ευέλικτο και προσαρμοστικό γραφικό περιβάλλον για διαφορετικές οθόνες "
+#~ "(υπολογιστές, tablet, κινητές συσκευές)."
+
+#~ msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
+#~ msgstr ""
+#~ "Γκαουσιανό θόλωμα εξωφύλλου ως εφέ παρασκηνίου, προσαρμογή στην "
+#~ "ανοιχτόχρωμη/σκουρόχρωμη λειτουργία του GNOME."
+
+#~ msgid ""
+#~ "Supports creating and editing playlists, drag cover to change order or "
+#~ "add to another playlist."
+#~ msgstr ""
+#~ "Υποστηρίζει δημιουργία και επεξεργασία λιστών αναπαραγωγής, μεταφορά "
+#~ "εξώφυλλων για αλλαγή της σειράς ή προσθήκη σε άλλη λίστα αναπαραγωγής."
+
+#~ msgid "Supports drag and drop with other apps."
+#~ msgstr "Υποστηρίζει μεταφορά και απόθεση με άλλες εφαρμογές."
+
+#~ msgid "Supports audio peaks visualizer."
+#~ msgstr "Υποστηρίζει οπτικοποίηση κορυφώσεων ήχου."
+
+#~ msgid "Supports gapless playback."
+#~ msgstr "Υποστηρίζει απρόσκοπτη αναπαραγωγή."
+
+#~ msgid "Supports normalizing volume with ReplayGain."
+#~ msgstr "Υποστηρίζει κανονικοποίηση έντασης με το ReplayGain."
+
+#~ msgid "Supports specified audio sink."
+#~ msgstr "Υποστηρίζει ορισμό συγκεκριμένης διεπαφής ήχου."
+
+#~ msgid "Supports MPRIS control."
+#~ msgstr "Υποστηρίζει έλεγχο MPRIS."

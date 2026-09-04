@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/neithern/g4music/issues\n"
-"POT-Creation-Date: 2024-11-02 21:22+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-04 03:15+0300\n"
 "PO-Revision-Date: 2024-11-15 20:00+0100\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: \n"
@@ -18,125 +18,40 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Poedit 3.5\n"
 
-#: data/app.desktop.in:3 data/app.metainfo.xml.in:4 src/application.vala:271
-#: src/main.vala:24
-msgid "Gapless"
-msgstr "Gapless"
+#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/main.vala:24
+#, fuzzy
+msgid "Music"
+msgstr "G4Music"
 
-#: data/app.desktop.in:4
+#: data/app.desktop.in:3
 msgid "Music Player"
 msgstr "Lector de musica"
 
-#: data/app.desktop.in:5 data/app.metainfo.xml.in:7
+#: data/app.desktop.in:4 data/app.metainfo.xml.in:7
 msgid "Play your music elegantly"
 msgstr "Legissètz vòstra music amb elegància"
 
-#: data/app.desktop.in:12
+#: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
 msgstr "musica;son;lector;mèdia;àudio;audio;lista de lectura;"
 
 #: data/app.metainfo.xml.in:24
-msgid ""
-"Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
-"focuses on large music collection."
+msgid "Utile Music is an elegant music player for Linux designed for Utile OS."
 msgstr ""
-"Gapless (tanben conegut coma G4Music) es un lector de musica leugièr escrich "
-"en GTK4, se concentra sus las grandas colleccions musicalas."
-
-#: data/app.metainfo.xml.in:25
-msgid "Features"
-msgstr "Foncionalitats"
-
-#: data/app.metainfo.xml.in:27
-msgid ""
-"Supports most music file types, Samba and any other remote protocols "
-"(depends on GIO and GStreamer)."
-msgstr ""
-"Pren en carga la màger part dels tipes de fichièrs musicals, Samba e quin "
-"autre protocòl a distància que siá (depend de GIO e GStreamer)."
-
-#: data/app.metainfo.xml.in:28
-msgid ""
-"Fast loading and parsing thousands of music files in very few seconds, "
-"monitor local changes."
-msgstr ""
-"Cargament rapid e analisi de milièrs de fichièrs musicals en fòrça paucas "
-"segondas, susvelhança dels cambiaments locals."
-
-#: data/app.metainfo.xml.in:29
-msgid ""
-"Low memory usage for large music collection with album covers (embedded and "
-"external), no thumbnail caches to store."
-msgstr ""
-"Utilizacion de memòria bassa per una granda colleccion de musica amb de "
-"coberturas d'albums (integradas e extèrnas), pas de caches de vinhetas "
-"d’emmagazinar."
-
-#: data/app.metainfo.xml.in:30
-msgid ""
-"Group and sorts by album/artist/title, shuffle list, full-text searching."
-msgstr ""
-"Gropar e triar per album/artista/títol, lista de mescla, recèrca de tèxte "
-"complèt."
-
-#: data/app.metainfo.xml.in:31
-msgid ""
-"Fluent adaptive user interface for different screen (Desktop, Tablet, "
-"Mobile)."
-msgstr ""
-"Interfàcia d'utilizaire adaptativa fluida per mantun ecran (burèu, tauleta, "
-"mobil)."
-
-#: data/app.metainfo.xml.in:32
-msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
-msgstr ""
-"Cobertura en fosc gaussian coma rèireplan, seguís lo mòde clar/escur GNOME."
-
-#: data/app.metainfo.xml.in:33
-msgid ""
-"Supports creating and editing playlists, drag cover to change order or add "
-"to another playlist."
-msgstr ""
-"Pren en carga la creacion e modificacion de listas de lectura, lisar "
-"depausar per cambiar l’òrdre o apondre a una autra lista de lectura."
-
-#: data/app.metainfo.xml.in:34
-msgid "Supports drag and drop with other apps."
-msgstr "Pren en carga del lisar depausar d’autras aplicacions."
 
 #: data/app.metainfo.xml.in:35
-msgid "Supports audio peaks visualizer."
-msgstr "Permet d’afichar lo nivèl àudio de poncha."
-
-#: data/app.metainfo.xml.in:36
-msgid "Supports gapless playback."
-msgstr "Pren en carga la lectura sens interrupcion."
-
-#: data/app.metainfo.xml.in:37
-msgid "Supports normalizing volume with ReplayGain."
-msgstr "Compatible amb la normalizacion del volum amb ReplayGain."
-
-#: data/app.metainfo.xml.in:38
-msgid "Supports specified audio sink."
-msgstr "Pren en carga un receptors àudio especificat."
-
-#: data/app.metainfo.xml.in:39
-msgid "Supports MPRIS control."
-msgstr "Compatible amb los contraròtles MPRIS."
-
-#: data/app.metainfo.xml.in:50
 msgid "Main window"
 msgstr "Fenèstra principala"
 
-#: data/app.metainfo.xml.in:54
+#: data/app.metainfo.xml.in:39
 msgid "Albums view"
 msgstr "Vista albums"
 
-#: data/app.metainfo.xml.in:58
+#: data/app.metainfo.xml.in:43
 msgid "Playing view"
 msgstr "Vista lectura"
 
-#: data/app.metainfo.xml.in:62
+#: data/app.metainfo.xml.in:47
 msgid "Playlist view"
 msgstr "Vista lista de lectura"
 
@@ -210,8 +125,8 @@ msgctxt "shortcut window"
 msgid "Save List"
 msgstr "Enregistrar la lista"
 
-#: src/gtk/play-panel.ui:16 src/ui/music-list.vala:633
-#: src/ui/store-panel.vala:423
+#: src/gtk/play-panel.ui:16 src/ui/music-list.vala:626
+#: src/ui/store-panel.vala:420
 msgid "Back"
 msgstr "Tornar"
 
@@ -235,7 +150,7 @@ msgstr "Vista grasilha per artista/albums"
 msgid "Single click to activate item"
 msgstr "Clic simple per activar l’element"
 
-#: src/gtk/preferences.ui:56 src/application.vala:430
+#: src/gtk/preferences.ui:56 src/application.vala:436
 msgid "Keep playing after window closed"
 msgstr "Téner de legir un còp la fenèstra tampada"
 
@@ -287,79 +202,79 @@ msgstr "Normalizar lo volum amb ReplayGain"
 msgid "Prefer audio sink of GStreamer"
 msgstr "Preferir lo contenedor àudio de Gstreamer"
 
-#: src/gtk/store-panel.ui:22
+#: src/gtk/store-panel.ui:23
 msgid "Main Menu"
 msgstr "Menú principal"
 
-#: src/gtk/store-panel.ui:29 src/ui/playlist-dialog.vala:36
+#: src/gtk/store-panel.ui:30 src/ui/playlist-dialog.vala:36
 msgid "Search"
 msgstr "Cercar"
 
-#: src/gtk/store-panel.ui:39
+#: src/gtk/store-panel.ui:40
 msgid "Sort By"
 msgstr "Triar per"
 
-#: src/gtk/store-panel.ui:70
+#: src/gtk/store-panel.ui:71
 msgid "_Color Scheme"
 msgstr "Esquèma de _colors"
 
-#: src/gtk/store-panel.ui:72
+#: src/gtk/store-panel.ui:73
 msgid "_System"
 msgstr "_Sistèma"
 
-#: src/gtk/store-panel.ui:77
+#: src/gtk/store-panel.ui:78
 msgid "_Light"
 msgstr "_Clar"
 
-#: src/gtk/store-panel.ui:82
+#: src/gtk/store-panel.ui:83
 msgid "_Dark"
 msgstr "_Escur"
 
-#: src/gtk/store-panel.ui:89
+#: src/gtk/store-panel.ui:90
 msgid "_Reload Library"
 msgstr "_Recargar la bibliotèca"
 
-#: src/gtk/store-panel.ui:93
+#: src/gtk/store-panel.ui:94
 msgid "_Multiple Select"
 msgstr "_Seleccion multipla"
 
-#: src/gtk/store-panel.ui:97
+#: src/gtk/store-panel.ui:98
 msgid "_Save List"
 msgstr "_Enregistrar la lista"
 
-#: src/gtk/store-panel.ui:103
+#: src/gtk/store-panel.ui:104
 msgid "_Preferences"
 msgstr "_Preferéncias"
 
-#: src/gtk/store-panel.ui:107
+#: src/gtk/store-panel.ui:108
 msgid "_Keyboard Shortcuts"
 msgstr "_Acorchis de clavièr"
 
-#: src/gtk/store-panel.ui:111
+#: src/gtk/store-panel.ui:112
 msgid "_About"
 msgstr "_A prepaus"
 
-#: src/gtk/store-panel.ui:120 src/ui/preferences.vala:66
+#: src/gtk/store-panel.ui:121 src/ui/preferences.vala:66
 msgid "Album"
 msgstr "Album"
 
-#: src/gtk/store-panel.ui:125
+#: src/gtk/store-panel.ui:126
 msgid "Artist"
 msgstr "Artista"
 
-#: src/gtk/store-panel.ui:130
+#: src/gtk/store-panel.ui:131
 msgid "Artist/Album"
 msgstr "Artista/album"
 
-#: src/gtk/store-panel.ui:135
+#: src/gtk/store-panel.ui:136
 msgid "Title"
 msgstr "Títol"
 
-#: src/gtk/store-panel.ui:140
+#: src/gtk/store-panel.ui:141
 msgid "Recent"
 msgstr "Recents"
 
-#: src/gtk/store-panel.ui:145
+#: src/gtk/store-panel.ui:146
 msgid "Shuffle"
 msgstr "Aleatòri"
 
@@ -375,89 +290,90 @@ msgstr "Succès de l’expòrt de la pocheta"
 msgid "Export cover failed"
 msgstr "Fracàs de l’expòrt de la pocheta"
 
-#: src/application.vala:344
+#: src/application.vala:275
+#, fuzzy
+msgid "Utile Music"
+msgstr "Repetir la cançon"
+
+#: src/application.vala:348
 msgid "Save playlist failed"
 msgstr "Fracàs de l’expòrt de la lista de lectura"
 
-#: src/application.vala:466
+#: src/application.vala:472
 msgid "Playlist Files"
 msgstr "Fichièrs de lista de lectura"
 
-#: src/application.vala:480
+#: src/application.vala:487
 msgid "Save playlist successfully"
 msgstr "Succès de l’enregistrament de la lista de lectura"
 
-#: src/application.vala:615
+#: src/application.vala:622
 msgid "Keep playing"
 msgstr "Contunhar de legir"
 
-#: src/ui/dialogs.vala:51
-msgid "A fast, fluent, light weight music player written in GTK4."
-msgstr "Un lector de musica rapid e leugièr esrich en GTK4."
-
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/ui/dialogs.vala:53
+#: src/ui/dialogs.vala:52
 msgid "translator-credits"
 msgstr "Quentin PAGÈS"
 
-#: src/ui/dialogs.vala:100 src/ui/dialogs.vala:112
+#: src/ui/dialogs.vala:98 src/ui/dialogs.vala:110
 msgid "No"
 msgstr "Non"
 
-#: src/ui/dialogs.vala:101 src/ui/dialogs.vala:112
+#: src/ui/dialogs.vala:99 src/ui/dialogs.vala:110
 msgid "Yes"
 msgstr "Òc"
 
-#: src/ui/music-list.vala:276
+#: src/ui/music-list.vala:270
 msgid "Playlist is modified, save it?"
 msgstr "Lista de lectura modificada, l’enregistrar ?"
 
 #. Translators: Play this music at next position of current playing music
-#: src/ui/music-list.vala:406 src/ui/music-list.vala:422
+#: src/ui/music-list.vala:399 src/ui/music-list.vala:415
 #: src/ui/music-widgets.vala:277 src/ui/music-widgets.vala:299
 msgid "Play at _Next"
 msgstr "Legir a la _seguida"
 
-#: src/ui/music-list.vala:408 src/ui/music-list.vala:424
+#: src/ui/music-list.vala:401 src/ui/music-list.vala:417
 #: src/ui/music-widgets.vala:278 src/ui/music-widgets.vala:300
 msgid "Add to _Queue"
 msgstr "_Apondre a la lista d'espèra"
 
-#: src/ui/music-list.vala:409 src/ui/music-widgets.vala:279
+#: src/ui/music-list.vala:402 src/ui/music-widgets.vala:279
 #: src/ui/music-widgets.vala:301 src/ui/music-widgets.vala:320
 msgid "Add to _Playlist…"
 msgstr "_Apondre a la lista de lectura…"
 
-#: src/ui/music-list.vala:410 src/ui/music-list.vala:428
+#: src/ui/music-list.vala:403 src/ui/music-list.vala:421
 msgid "_Remove"
 msgstr "_Levar"
 
-#: src/ui/music-list.vala:429 src/ui/music-widgets.vala:286
+#: src/ui/music-list.vala:422 src/ui/music-widgets.vala:286
 msgid "_Move to Trash"
 msgstr "_Metre a l'escobilhièr"
 
-#: src/ui/music-list.vala:637
+#: src/ui/music-list.vala:630
 msgid "Select All"
 msgstr "Tot seleccionar"
 
-#: src/ui/music-list.vala:654
+#: src/ui/music-list.vala:647
 msgid "Play at Next"
 msgstr "Legir a la seguida"
 
-#: src/ui/music-list.vala:661
+#: src/ui/music-list.vala:654
 msgid "Add to Queue"
 msgstr "Apondre a la lista d'espèra"
 
-#: src/ui/music-list.vala:668 src/ui/playlist-dialog.vala:19
+#: src/ui/music-list.vala:661 src/ui/playlist-dialog.vala:19
 msgid "Add to Playlist"
 msgstr "Apondre a la lista de lectura"
 
-#: src/ui/music-list.vala:675
+#: src/ui/music-list.vala:668
 msgid "Remove"
 msgstr "Levar"
 
 #: src/ui/music-widgets.vala:274 src/ui/music-widgets.vala:296
-#: src/ui/store-panel.vala:431
+#: src/ui/store-panel.vala:428
 msgid "Play"
 msgstr "Lectura"
 
@@ -469,15 +385,15 @@ msgstr "Lectura _aleatòria"
 msgid "Show List _File"
 msgstr "Afichar fichièr de lista"
 
-#: src/ui/music-widgets.vala:308 src/ui/play-panel.vala:60
+#: src/ui/music-widgets.vala:308 src/ui/play-panel.vala:63
 msgid "Search Title"
 msgstr "Recercar de títols"
 
-#: src/ui/music-widgets.vala:309 src/ui/play-panel.vala:58
+#: src/ui/music-widgets.vala:309 src/ui/play-panel.vala:61
 msgid "Search Album"
 msgstr "Recercar d’albums"
 
-#: src/ui/music-widgets.vala:310 src/ui/play-panel.vala:59
+#: src/ui/music-widgets.vala:310 src/ui/play-panel.vala:62
 msgid "Search Artist"
 msgstr "Recercar d’artistas"
 
@@ -515,7 +431,11 @@ msgstr "Lectura/Pausa"
 msgid "Play Next"
 msgstr "Legir la seguenta"
 
-#: src/ui/play-panel.vala:263
+#: src/ui/play-panel.vala:56 src/ui/store-panel.vala:84
+msgid "Playing"
+msgstr "En lectura"
+
+#: src/ui/play-panel.vala:266
 msgid ""
 "Drag and drop music files here,\n"
 "or change music location: "
@@ -527,7 +447,7 @@ msgstr ""
 msgid "New Playlist"
 msgstr "Lista de lectura novèla"
 
-#: src/ui/playlist-dialog.vala:98 src/ui/store-panel.vala:702
+#: src/ui/playlist-dialog.vala:98 src/ui/store-panel.vala:712
 #, c-format
 msgid "No playlist found in %s"
 msgstr "Cap de lista de lectura pas trobada dins %s"
@@ -547,10 +467,6 @@ msgstr "Pocheta de l'album sonque"
 #: src/ui/preferences.vala:66
 msgid "Track"
 msgstr "Pista"
-
-#: src/ui/store-panel.vala:84
-msgid "Playing"
-msgstr "En lectura"
 
 #: src/ui/store-panel.vala:89
 msgid "Artists"
@@ -574,7 +490,7 @@ msgstr "Copiar"
 msgid "Volume %d%%"
 msgstr "Volum %d%%"
 
-#: src/ui/window.vala:119
+#: src/ui/window.vala:127
 msgid "Show"
 msgstr "Mostrar"
 
@@ -585,6 +501,87 @@ msgstr "Album desconegut"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Artista desconegut"
+
+#~ msgid "Gapless"
+#~ msgstr "Gapless"
+
+#~ msgid ""
+#~ "Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
+#~ "focuses on large music collection."
+#~ msgstr ""
+#~ "Gapless (tanben conegut coma G4Music) es un lector de musica leugièr "
+#~ "escrich en GTK4, se concentra sus las grandas colleccions musicalas."
+
+#~ msgid "Features"
+#~ msgstr "Foncionalitats"
+
+#~ msgid ""
+#~ "Supports most music file types, Samba and any other remote protocols "
+#~ "(depends on GIO and GStreamer)."
+#~ msgstr ""
+#~ "Pren en carga la màger part dels tipes de fichièrs musicals, Samba e quin "
+#~ "autre protocòl a distància que siá (depend de GIO e GStreamer)."
+
+#~ msgid ""
+#~ "Fast loading and parsing thousands of music files in very few seconds, "
+#~ "monitor local changes."
+#~ msgstr ""
+#~ "Cargament rapid e analisi de milièrs de fichièrs musicals en fòrça paucas "
+#~ "segondas, susvelhança dels cambiaments locals."
+
+#~ msgid ""
+#~ "Low memory usage for large music collection with album covers (embedded "
+#~ "and external), no thumbnail caches to store."
+#~ msgstr ""
+#~ "Utilizacion de memòria bassa per una granda colleccion de musica amb de "
+#~ "coberturas d'albums (integradas e extèrnas), pas de caches de vinhetas "
+#~ "d’emmagazinar."
+
+#~ msgid ""
+#~ "Group and sorts by album/artist/title, shuffle list, full-text searching."
+#~ msgstr ""
+#~ "Gropar e triar per album/artista/títol, lista de mescla, recèrca de tèxte "
+#~ "complèt."
+
+#~ msgid ""
+#~ "Fluent adaptive user interface for different screen (Desktop, Tablet, "
+#~ "Mobile)."
+#~ msgstr ""
+#~ "Interfàcia d'utilizaire adaptativa fluida per mantun ecran (burèu, "
+#~ "tauleta, mobil)."
+
+#~ msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
+#~ msgstr ""
+#~ "Cobertura en fosc gaussian coma rèireplan, seguís lo mòde clar/escur "
+#~ "GNOME."
+
+#~ msgid ""
+#~ "Supports creating and editing playlists, drag cover to change order or "
+#~ "add to another playlist."
+#~ msgstr ""
+#~ "Pren en carga la creacion e modificacion de listas de lectura, lisar "
+#~ "depausar per cambiar l’òrdre o apondre a una autra lista de lectura."
+
+#~ msgid "Supports drag and drop with other apps."
+#~ msgstr "Pren en carga del lisar depausar d’autras aplicacions."
+
+#~ msgid "Supports audio peaks visualizer."
+#~ msgstr "Permet d’afichar lo nivèl àudio de poncha."
+
+#~ msgid "Supports gapless playback."
+#~ msgstr "Pren en carga la lectura sens interrupcion."
+
+#~ msgid "Supports normalizing volume with ReplayGain."
+#~ msgstr "Compatible amb la normalizacion del volum amb ReplayGain."
+
+#~ msgid "Supports specified audio sink."
+#~ msgstr "Pren en carga un receptors àudio especificat."
+
+#~ msgid "Supports MPRIS control."
+#~ msgstr "Compatible amb los contraròtles MPRIS."
+
+#~ msgid "A fast, fluent, light weight music player written in GTK4."
+#~ msgstr "Un lector de musica rapid e leugièr esrich en GTK4."
 
 #~ msgid "Nanling"
 #~ msgstr "Nanling"
@@ -599,12 +596,6 @@ msgstr "Artista desconegut"
 
 #~ msgid "Prefer dark theme"
 #~ msgstr "Preferir lo tèma escur"
-
-#~ msgid "G4Music"
-#~ msgstr "G4Music"
-
-#~ msgid "Repeat Music"
-#~ msgstr "Repetir la cançon"
 
 #~ msgid "Appearance"
 #~ msgstr "Aparéncia"

@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/neithern/g4music/issues\n"
-"POT-Creation-Date: 2025-11-16 06:55+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-04 03:15+0300\n"
 "PO-Revision-Date: 2026-03-25 21:32+0100\n"
 "Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <Serbian>\n"
@@ -19,10 +19,9 @@ msgstr ""
 "n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Poedit 3.9\n"
 
-#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/application.vala:273
-#: src/main.vala:24
-msgid "Gapless"
-msgstr "Вртешка"
+#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/main.vala:24
+msgid "Music"
+msgstr ""
 
 #: data/app.desktop.in:3
 msgid "Music Player"
@@ -37,91 +36,22 @@ msgid "music;sound;player;media;audio;playlist;"
 msgstr "music;sound;player;media;audio;playlist;музика;звук;плејер;пуштач;медији;аудио;плејлиста;muzika;zvuk;plejer;puštač;mediji;audio;plejlista;"
 
 #: data/app.metainfo.xml.in:24
-msgid ""
-"Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
-"focuses on large music collection."
-msgstr "Вртешка (тј. Г4-музика) је лаган музички пуштач написан у ГТК4, усредсређен на велике музичке колекције."
-
-#: data/app.metainfo.xml.in:25
-msgid "Features"
-msgstr "Могућности"
-
-#: data/app.metainfo.xml.in:27
-msgid ""
-"Supports most music file types, Samba and any other remote protocols "
-"(depends on GIO and GStreamer)."
-msgstr "Подржава већину врста музичких датотека, Самбу и све друге удаљене протоколе (зависи од ГИО-а и Гстримера)."
-
-#: data/app.metainfo.xml.in:28
-msgid ""
-"Fast loading and parsing thousands of music files in very few seconds, "
-"monitor local changes."
-msgstr "Брзо учитавање и рашчлањивање хиљада музичких датотека у свега неколико секунди, надгледање локалних измена."
-
-#: data/app.metainfo.xml.in:29
-msgid ""
-"Low memory usage for large music collection with album covers (embedded and "
-"external), no thumbnail caches to store."
-msgstr "Мала потрошња меморије за велике музичке колекције са омотима албума (уграђеним и спољним), без кеша сличица за складиштење."
-
-#: data/app.metainfo.xml.in:30
-msgid ""
-"Group and sorts by album/artist/title, shuffle list, full-text searching."
-msgstr "Групише и сортира према албуму/извођачу/наслову, меша спискове песама, претрага целог текста."
-
-#: data/app.metainfo.xml.in:31
-msgid ""
-"Fluent adaptive user interface for different screen (Desktop, Tablet, "
-"Mobile)."
-msgstr "Течно прилагодљиво корисничко прочеље за различите екране (рачунар, таблет, мобилни)."
-
-#: data/app.metainfo.xml.in:32
-msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
-msgstr "Гаусов замућени омот као позадина, прати Гномов светли/тамни режим."
-
-#: data/app.metainfo.xml.in:33
-msgid ""
-"Supports creating and editing playlists, drag cover to change order or add "
-"to another playlist."
-msgstr "Подржава стварање и уређивање спискова песама, превлачење омота за промену редоследа или додавање у други списак."
-
-#: data/app.metainfo.xml.in:34
-msgid "Supports drag and drop with other apps."
-msgstr "Подржава превлачење и спуштање са другим програмима."
+msgid "Utile Music is an elegant music player for Linux designed for Utile OS."
+msgstr ""
 
 #: data/app.metainfo.xml.in:35
-msgid "Supports audio peaks visualizer."
-msgstr "Подржава визуелизатор врхова звука."
-
-#: data/app.metainfo.xml.in:36
-msgid "Supports gapless playback."
-msgstr "Подржава пуштање без застоја."
-
-#: data/app.metainfo.xml.in:37
-msgid "Supports normalizing volume with ReplayGain."
-msgstr "Подржава нормализацију јачине звука помоћу појачања понављања (ReplayGain)."
-
-#: data/app.metainfo.xml.in:38
-msgid "Supports specified audio sink."
-msgstr "Подржава наведени звучни излаз."
-
-#: data/app.metainfo.xml.in:39
-msgid "Supports MPRIS control."
-msgstr "Подржава МПРИС управљање."
-
-#: data/app.metainfo.xml.in:50
 msgid "Main window"
 msgstr "Главни прозор"
 
-#: data/app.metainfo.xml.in:54
+#: data/app.metainfo.xml.in:39
 msgid "Albums view"
 msgstr "Преглед албума"
 
-#: data/app.metainfo.xml.in:58
+#: data/app.metainfo.xml.in:43
 msgid "Playing view"
 msgstr "Преглед пуштања"
 
-#: data/app.metainfo.xml.in:62
+#: data/app.metainfo.xml.in:47
 msgid "Playlist view"
 msgstr "Преглед списка песама"
 
@@ -220,7 +150,7 @@ msgstr "Преглед мреже за извођаче/албуме"
 msgid "Single click to activate item"
 msgstr "Једноструки клик за активирање ставке"
 
-#: src/gtk/preferences.ui:56 src/application.vala:434
+#: src/gtk/preferences.ui:56 src/application.vala:436
 msgid "Keep playing after window closed"
 msgstr "Настави репродукцију након затварања прозора"
 
@@ -360,19 +290,23 @@ msgstr "Извоз омота је успео"
 msgid "Export cover failed"
 msgstr "Извоз омота није успео"
 
-#: src/application.vala:346
+#: src/application.vala:275
+msgid "Utile Music"
+msgstr ""
+
+#: src/application.vala:348
 msgid "Save playlist failed"
 msgstr "Чување списка песама није успело"
 
-#: src/application.vala:470
+#: src/application.vala:472
 msgid "Playlist Files"
 msgstr "Датотеке списка песама"
 
-#: src/application.vala:485
+#: src/application.vala:487
 msgid "Save playlist successfully"
 msgstr "Списак песама је успешно сачуван"
 
-#: src/application.vala:620
+#: src/application.vala:622
 msgid "Keep playing"
 msgstr "Настави пуштање"
 
@@ -557,7 +491,7 @@ msgstr "Копирај"
 msgid "Volume %d%%"
 msgstr "Јачина звука %d%%"
 
-#: src/ui/window.vala:126
+#: src/ui/window.vala:127
 msgid "Show"
 msgstr "Прикажи"
 
@@ -568,3 +502,80 @@ msgstr "Непознат албум"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Непознат извођач"
+
+#~ msgid "Gapless"
+#~ msgstr "Вртешка"
+
+#~ msgid ""
+#~ "Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
+#~ "focuses on large music collection."
+#~ msgstr ""
+#~ "Вртешка (тј. Г4-музика) је лаган музички пуштач написан у ГТК4, "
+#~ "усредсређен на велике музичке колекције."
+
+#~ msgid "Features"
+#~ msgstr "Могућности"
+
+#~ msgid ""
+#~ "Supports most music file types, Samba and any other remote protocols "
+#~ "(depends on GIO and GStreamer)."
+#~ msgstr ""
+#~ "Подржава већину врста музичких датотека, Самбу и све друге удаљене "
+#~ "протоколе (зависи од ГИО-а и Гстримера)."
+
+#~ msgid ""
+#~ "Fast loading and parsing thousands of music files in very few seconds, "
+#~ "monitor local changes."
+#~ msgstr ""
+#~ "Брзо учитавање и рашчлањивање хиљада музичких датотека у свега неколико "
+#~ "секунди, надгледање локалних измена."
+
+#~ msgid ""
+#~ "Low memory usage for large music collection with album covers (embedded "
+#~ "and external), no thumbnail caches to store."
+#~ msgstr ""
+#~ "Мала потрошња меморије за велике музичке колекције са омотима албума "
+#~ "(уграђеним и спољним), без кеша сличица за складиштење."
+
+#~ msgid ""
+#~ "Group and sorts by album/artist/title, shuffle list, full-text searching."
+#~ msgstr ""
+#~ "Групише и сортира према албуму/извођачу/наслову, меша спискове песама, "
+#~ "претрага целог текста."
+
+#~ msgid ""
+#~ "Fluent adaptive user interface for different screen (Desktop, Tablet, "
+#~ "Mobile)."
+#~ msgstr ""
+#~ "Течно прилагодљиво корисничко прочеље за различите екране (рачунар, "
+#~ "таблет, мобилни)."
+
+#~ msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
+#~ msgstr "Гаусов замућени омот као позадина, прати Гномов светли/тамни режим."
+
+#~ msgid ""
+#~ "Supports creating and editing playlists, drag cover to change order or "
+#~ "add to another playlist."
+#~ msgstr ""
+#~ "Подржава стварање и уређивање спискова песама, превлачење омота за "
+#~ "промену редоследа или додавање у други списак."
+
+#~ msgid "Supports drag and drop with other apps."
+#~ msgstr "Подржава превлачење и спуштање са другим програмима."
+
+#~ msgid "Supports audio peaks visualizer."
+#~ msgstr "Подржава визуелизатор врхова звука."
+
+#~ msgid "Supports gapless playback."
+#~ msgstr "Подржава пуштање без застоја."
+
+#~ msgid "Supports normalizing volume with ReplayGain."
+#~ msgstr ""
+#~ "Подржава нормализацију јачине звука помоћу појачања понављања "
+#~ "(ReplayGain)."
+
+#~ msgid "Supports specified audio sink."
+#~ msgstr "Подржава наведени звучни излаз."
+
+#~ msgid "Supports MPRIS control."
+#~ msgstr "Подржава МПРИС управљање."

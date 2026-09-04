@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/neithern/g4music/issues\n"
-"POT-Creation-Date: 2026-06-09 13:38+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-04 03:15+0300\n"
 "PO-Revision-Date: 2026-06-18 00:09+0200\n"
 "Last-Translator: Victoria Niedzielska <victorian@gnome.org>\n"
 "Language-Team: Polish <https://l10n.gnome.org/teams/pl/>\n"
@@ -20,10 +20,9 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Gtranslator 50.0\n"
 
-#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/application.vala:275
-#: src/main.vala:24
-msgid "Gapless"
-msgstr "Gapless"
+#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/main.vala:24
+msgid "Music"
+msgstr ""
 
 #: data/app.desktop.in:3
 msgid "Music Player"
@@ -40,108 +39,22 @@ msgstr ""
 "odtwarzania;multimedia;music;gapless;playlist;playlista;plejlista;"
 
 #: data/app.metainfo.xml.in:24
-msgid ""
-"Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
-"focuses on large music collection."
+msgid "Utile Music is an elegant music player for Linux designed for Utile OS."
 msgstr ""
-"Gapless (AKA: G4Music) to lekki odtwarzacz muzyki napisany w GTK4, "
-"skupiający się na dużych kolekcjach muzycznych."
-
-#: data/app.metainfo.xml.in:25
-msgid "Features"
-msgstr "Funkcje"
-
-#: data/app.metainfo.xml.in:27
-msgid ""
-"Supports most music file types, Samba and any other remote protocols "
-"(depends on GIO and GStreamer)."
-msgstr ""
-"Obsługuje większość typów plików muzycznych, Sambę i inne zdalne protokoły "
-"(zależy od GIO i GStreamer)."
-
-#: data/app.metainfo.xml.in:28
-msgid ""
-"Fast loading and parsing thousands of music files in very few seconds, "
-"monitor local changes."
-msgstr ""
-"Szybkie wczytywanie i analizowanie tysięcy plików muzycznych w kilka sekund, "
-"monitorowanie lokalnych zmian."
-
-#: data/app.metainfo.xml.in:29
-msgid ""
-"Low memory usage for large music collection with album covers (embedded and "
-"external), no thumbnail caches to store."
-msgstr ""
-"Niskie zużycie pamięci dla dużej kolekcji muzycznej z okładkami albumów "
-"(osadzonymi i zewnętrznymi), bez pamięci podręcznej miniatur do "
-"przechowywania."
-
-#: data/app.metainfo.xml.in:30
-msgid ""
-"Group and sorts by album/artist/title, shuffle list, full-text searching."
-msgstr ""
-"Grupowanie i sortowanie według albumu/wykonawcy/utworu, losowe listy i "
-"wyszukiwanie pełnotekstowe."
-
-#: data/app.metainfo.xml.in:31
-msgid ""
-"Fluent adaptive user interface for different screen (Desktop, Tablet, "
-"Mobile)."
-msgstr ""
-"Płynny, adaptacyjny interfejs dla różnych ekranów (komputerów stacjonarnych, "
-"tabletów i urządzeń mobilnych)."
-
-#: data/app.metainfo.xml.in:32
-msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
-msgstr ""
-"Rozmycie gaussowskie jako tło, współpracujące z trybem jasnym/ciemnym "
-"środowiska GNOME."
-
-#: data/app.metainfo.xml.in:33
-msgid ""
-"Supports creating and editing playlists, drag cover to change order or add "
-"to another playlist."
-msgstr ""
-"Wspiera tworzenie playlist, przeciąganie okładek, aby zmienić kolejność bądź "
-"dodać do innej playlisty.  "
-
-#: data/app.metainfo.xml.in:34
-msgid "Supports drag and drop with other apps."
-msgstr "Obsługuje przeciąganie z innych aplikacji."
 
 #: data/app.metainfo.xml.in:35
-msgid "Supports audio peaks visualizer."
-msgstr "Obsługuje wizualizator szczytów dźwiękowych."
-
-#: data/app.metainfo.xml.in:36
-msgid "Supports gapless playback."
-msgstr "Obsługuje odtwarzanie bez przerw"
-
-#: data/app.metainfo.xml.in:37
-msgid "Supports normalizing volume with ReplayGain."
-msgstr "Obsługuje normalizację głośności za pomocą ReplayGain."
-
-#: data/app.metainfo.xml.in:38
-msgid "Supports specified audio sink."
-msgstr "Obsługuje różne źródła dźwięku."
-
-#: data/app.metainfo.xml.in:39
-msgid "Supports MPRIS control."
-msgstr "Obsługuje kontrolę MPRIS."
-
-#: data/app.metainfo.xml.in:50
 msgid "Main window"
 msgstr "Okno główne"
 
-#: data/app.metainfo.xml.in:54
+#: data/app.metainfo.xml.in:39
 msgid "Albums view"
 msgstr "Widok albumów"
 
-#: data/app.metainfo.xml.in:58
+#: data/app.metainfo.xml.in:43
 msgid "Playing view"
 msgstr "Widok odtwarzania"
 
-#: data/app.metainfo.xml.in:62
+#: data/app.metainfo.xml.in:47
 msgid "Playlist view"
 msgstr "Widok playlisty"
 
@@ -380,6 +293,10 @@ msgstr "Pomyślnie eksportowano okładkę"
 msgid "Export cover failed"
 msgstr "eksportować okładki nie powiodło się"
 
+#: src/application.vala:275
+msgid "Utile Music"
+msgstr ""
+
 #: src/application.vala:348
 msgid "Save playlist failed"
 msgstr "Nie udało się zapisać playlisty"
@@ -588,3 +505,81 @@ msgstr "Nieznany album"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Nieznany wykonawca"
+
+#~ msgid "Gapless"
+#~ msgstr "Gapless"
+
+#~ msgid ""
+#~ "Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
+#~ "focuses on large music collection."
+#~ msgstr ""
+#~ "Gapless (AKA: G4Music) to lekki odtwarzacz muzyki napisany w GTK4, "
+#~ "skupiający się na dużych kolekcjach muzycznych."
+
+#~ msgid "Features"
+#~ msgstr "Funkcje"
+
+#~ msgid ""
+#~ "Supports most music file types, Samba and any other remote protocols "
+#~ "(depends on GIO and GStreamer)."
+#~ msgstr ""
+#~ "Obsługuje większość typów plików muzycznych, Sambę i inne zdalne "
+#~ "protokoły (zależy od GIO i GStreamer)."
+
+#~ msgid ""
+#~ "Fast loading and parsing thousands of music files in very few seconds, "
+#~ "monitor local changes."
+#~ msgstr ""
+#~ "Szybkie wczytywanie i analizowanie tysięcy plików muzycznych w kilka "
+#~ "sekund, monitorowanie lokalnych zmian."
+
+#~ msgid ""
+#~ "Low memory usage for large music collection with album covers (embedded "
+#~ "and external), no thumbnail caches to store."
+#~ msgstr ""
+#~ "Niskie zużycie pamięci dla dużej kolekcji muzycznej z okładkami albumów "
+#~ "(osadzonymi i zewnętrznymi), bez pamięci podręcznej miniatur do "
+#~ "przechowywania."
+
+#~ msgid ""
+#~ "Group and sorts by album/artist/title, shuffle list, full-text searching."
+#~ msgstr ""
+#~ "Grupowanie i sortowanie według albumu/wykonawcy/utworu, losowe listy i "
+#~ "wyszukiwanie pełnotekstowe."
+
+#~ msgid ""
+#~ "Fluent adaptive user interface for different screen (Desktop, Tablet, "
+#~ "Mobile)."
+#~ msgstr ""
+#~ "Płynny, adaptacyjny interfejs dla różnych ekranów (komputerów "
+#~ "stacjonarnych, tabletów i urządzeń mobilnych)."
+
+#~ msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
+#~ msgstr ""
+#~ "Rozmycie gaussowskie jako tło, współpracujące z trybem jasnym/ciemnym "
+#~ "środowiska GNOME."
+
+#~ msgid ""
+#~ "Supports creating and editing playlists, drag cover to change order or "
+#~ "add to another playlist."
+#~ msgstr ""
+#~ "Wspiera tworzenie playlist, przeciąganie okładek, aby zmienić kolejność "
+#~ "bądź dodać do innej playlisty.  "
+
+#~ msgid "Supports drag and drop with other apps."
+#~ msgstr "Obsługuje przeciąganie z innych aplikacji."
+
+#~ msgid "Supports audio peaks visualizer."
+#~ msgstr "Obsługuje wizualizator szczytów dźwiękowych."
+
+#~ msgid "Supports gapless playback."
+#~ msgstr "Obsługuje odtwarzanie bez przerw"
+
+#~ msgid "Supports normalizing volume with ReplayGain."
+#~ msgstr "Obsługuje normalizację głośności za pomocą ReplayGain."
+
+#~ msgid "Supports specified audio sink."
+#~ msgstr "Obsługuje różne źródła dźwięku."
+
+#~ msgid "Supports MPRIS control."
+#~ msgstr "Obsługuje kontrolę MPRIS."

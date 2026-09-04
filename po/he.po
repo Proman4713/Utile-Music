@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/neithern/g4music/issues\n"
-"POT-Creation-Date: 2024-11-24 11:17+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-04 03:15+0300\n"
 "PO-Revision-Date: 2025-01-09 09:25+0200\n"
 "Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
 "Language-Team: Hebrew <yoseforb@gmail.com>\n"
@@ -19,122 +19,43 @@ msgstr ""
 "2 : 3);\n"
 "X-Generator: Poedit 3.5\n"
 
-#: data/app.desktop.in:3 data/app.metainfo.xml.in:4 src/application.vala:273
-#: src/main.vala:24
-msgid "Gapless"
-msgstr "Gapless"
+#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/main.vala:24
+#, fuzzy
+msgid "Music"
+msgstr "G4Music"
 
-#: data/app.desktop.in:4
+#: data/app.desktop.in:3
 msgid "Music Player"
 msgstr "נגן מוזיקה"
 
-#: data/app.desktop.in:5 data/app.metainfo.xml.in:7
+#: data/app.desktop.in:4 data/app.metainfo.xml.in:7
 msgid "Play your music elegantly"
 msgstr "לנגן את המוזיקה שלך באלגנטיות"
 
-#: data/app.desktop.in:12
+#: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
 msgstr ""
-"מוסיקה;מוזיקה;שמע;צליל;נגן;מדיה;רשימת נגינה;רשימות נגינה;רשימת השמעה;"
-"פלייליסט;"
+"מוסיקה;מוזיקה;שמע;צליל;נגן;מדיה;רשימת נגינה;רשימות נגינה;רשימת "
+"השמעה;פלייליסט;"
 
 #: data/app.metainfo.xml.in:24
-msgid ""
-"Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
-"focuses on large music collection."
+msgid "Utile Music is an elegant music player for Linux designed for Utile OS."
 msgstr ""
-"‏Gapless (הידוע גם בשם: G4Music) הוא נגן מוזיקה קל משקל שנכתב ב־GTK4, המתמקד "
-"באוספי מוזיקה גדולים."
-
-#: data/app.metainfo.xml.in:25
-msgid "Features"
-msgstr "תכונות"
-
-#: data/app.metainfo.xml.in:27
-msgid ""
-"Supports most music file types, Samba and any other remote protocols "
-"(depends on GIO and GStreamer)."
-msgstr ""
-"תמיכה ברוב סוגי קבצי המוזיקה, Samba ופרוטוקולים מרוחקים אחרים (תלוי ב־GIO "
-"ו־GStreamer)."
-
-#: data/app.metainfo.xml.in:28
-msgid ""
-"Fast loading and parsing thousands of music files in very few seconds, "
-"monitor local changes."
-msgstr ""
-"טעינה ופענוח מהירים של אלפי קובצי מוזיקה תוך שניות ספורות, מעקב אחר שינויים "
-"מקומיים."
-
-#: data/app.metainfo.xml.in:29
-msgid ""
-"Low memory usage for large music collection with album covers (embedded and "
-"external), no thumbnail caches to store."
-msgstr ""
-"שימוש מועט בזיכרון עבור אוסף מוזיקה גדול עם עטיפות אלבומים (מוטבעות "
-"וחיצוניות), ללא צורך באחסון מטמון של תמונות ממוזערות."
-
-#: data/app.metainfo.xml.in:30
-msgid ""
-"Group and sorts by album/artist/title, shuffle list, full-text searching."
-msgstr "קיבוץ ומיון לפי אלבום/אומן/כותרת, ערבוב רשימה, חיפוש טקסט מלא."
-
-#: data/app.metainfo.xml.in:31
-msgid ""
-"Fluent adaptive user interface for different screen (Desktop, Tablet, "
-"Mobile)."
-msgstr "ממשק משתמש מסתגל ומותאם למסכים שונים (מחשב שולחני, מחשב לוח, נייד)."
-
-#: data/app.metainfo.xml.in:32
-msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
-msgstr "עטיפת אלבום מטושטשת כרקע, מעקב אחר סגנון מערכת בהיר/כהה של GNOME."
-
-#: data/app.metainfo.xml.in:33
-msgid ""
-"Supports creating and editing playlists, drag cover to change order or add "
-"to another playlist."
-msgstr ""
-"תמיכה ביצירה ועריכה של רשימות נגינה, גרירת העטיפה תשנה את הסדר או תוסיף "
-"לרשימת נגינה אחרת."
-
-#: data/app.metainfo.xml.in:34
-msgid "Supports drag and drop with other apps."
-msgstr "תמיכה בגרירה מיישומים אחרים ואליהם."
 
 #: data/app.metainfo.xml.in:35
-msgid "Supports audio peaks visualizer."
-msgstr "תמיכה בהדמיית שיאי אודיו."
-
-#: data/app.metainfo.xml.in:36
-msgid "Supports gapless playback."
-msgstr "תמיכה בנגינה ללא הפסקות."
-
-#: data/app.metainfo.xml.in:37
-msgid "Supports normalizing volume with ReplayGain."
-msgstr "תמיכה באיזון עצמת קול עם ReplayGain."
-
-#: data/app.metainfo.xml.in:38
-msgid "Supports specified audio sink."
-msgstr "תמיכה בשקע השמע שצוין."
-
-#: data/app.metainfo.xml.in:39
-msgid "Supports MPRIS control."
-msgstr "תמיכה בשליטת MPRIS."
-
-#: data/app.metainfo.xml.in:50
 msgid "Main window"
 msgstr "חלון ראשי"
 
-#: data/app.metainfo.xml.in:54
+#: data/app.metainfo.xml.in:39
 msgid "Albums view"
 msgstr "תצוגת אלבומים"
 
-#: data/app.metainfo.xml.in:58
+#: data/app.metainfo.xml.in:43
 msgid "Playing view"
 msgstr "תצוגת נגינה"
 
 # msgctxt "shortcut window"
-#: data/app.metainfo.xml.in:62
+#: data/app.metainfo.xml.in:47
 msgid "Playlist view"
 msgstr "תצוגת רשימת נגינה"
 
@@ -208,8 +129,8 @@ msgctxt "shortcut window"
 msgid "Save List"
 msgstr "שמירת הרשימה"
 
-#: src/gtk/play-panel.ui:16 src/ui/music-list.vala:632
-#: src/ui/store-panel.vala:421
+#: src/gtk/play-panel.ui:16 src/ui/music-list.vala:626
+#: src/ui/store-panel.vala:420
 msgid "Back"
 msgstr "אחורה"
 
@@ -233,7 +154,7 @@ msgstr "תצוגת רשת לאלבומים/אומנים"
 msgid "Single click to activate item"
 msgstr "לחיצה אחת מפעילה פעיל"
 
-#: src/gtk/preferences.ui:56 src/application.vala:434
+#: src/gtk/preferences.ui:56 src/application.vala:436
 msgid "Keep playing after window closed"
 msgstr "להמשיך להשמיע לאחר סגירת החלון"
 
@@ -373,94 +294,94 @@ msgstr "העטיפה יוצאה בהצלחה"
 msgid "Export cover failed"
 msgstr "ייצוא עטיפה נכשל"
 
-#: src/application.vala:346
+#: src/application.vala:275
+msgid "Utile Music"
+msgstr ""
+
+#: src/application.vala:348
 msgid "Save playlist failed"
 msgstr "שמירת רשימת הנגינה נכשלה"
 
 # msgctxt "shortcut window"
-#: src/application.vala:470
+#: src/application.vala:472
 msgid "Playlist Files"
 msgstr "קובצי רשימת נגינה"
 
-#: src/application.vala:485
+#: src/application.vala:487
 msgid "Save playlist successfully"
 msgstr "רשימת הנגינה נשמרה בהצלחה"
 
-#: src/application.vala:620
+#: src/application.vala:622
 msgid "Keep playing"
 msgstr "להמשיך לנגן"
 
-#: src/ui/dialogs.vala:51
-msgid "A fast, fluent, light weight music player written in GTK4."
-msgstr "נגן מוזיקה קל, מהיר וגמיש שנכתב ב־GTK4."
-
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/ui/dialogs.vala:53
+#: src/ui/dialogs.vala:52
 msgid "translator-credits"
 msgstr ""
 "יוסף אור בוצ׳קו <yoseforb@gmail.com>\n"
 "מיזם תרגום GNOME לעברית https://l10n.gnome.org/teams/he/"
 
-#: src/ui/dialogs.vala:100 src/ui/dialogs.vala:112
+#: src/ui/dialogs.vala:98 src/ui/dialogs.vala:110
 msgid "No"
 msgstr "לא"
 
-#: src/ui/dialogs.vala:101 src/ui/dialogs.vala:112
+#: src/ui/dialogs.vala:99 src/ui/dialogs.vala:110
 msgid "Yes"
 msgstr "כן"
 
-#: src/ui/music-list.vala:276
+#: src/ui/music-list.vala:270
 msgid "Playlist is modified, save it?"
 msgstr "רשימה הנגינה שונתה, לשמור אותה?"
 
 #. Translators: Play this music at next position of current playing music
-#: src/ui/music-list.vala:405 src/ui/music-list.vala:421
+#: src/ui/music-list.vala:399 src/ui/music-list.vala:415
 #: src/ui/music-widgets.vala:277 src/ui/music-widgets.vala:299
 msgid "Play at _Next"
 msgstr "הבא שית_נגן"
 
-#: src/ui/music-list.vala:407 src/ui/music-list.vala:423
+#: src/ui/music-list.vala:401 src/ui/music-list.vala:417
 #: src/ui/music-widgets.vala:278 src/ui/music-widgets.vala:300
 msgid "Add to _Queue"
 msgstr "הוספה ל_תור"
 
 # msgctxt "shortcut window"
-#: src/ui/music-list.vala:408 src/ui/music-widgets.vala:279
+#: src/ui/music-list.vala:402 src/ui/music-widgets.vala:279
 #: src/ui/music-widgets.vala:301 src/ui/music-widgets.vala:320
 msgid "Add to _Playlist…"
 msgstr "הוספה לרשימת _נגינה…"
 
-#: src/ui/music-list.vala:409 src/ui/music-list.vala:427
+#: src/ui/music-list.vala:403 src/ui/music-list.vala:421
 msgid "_Remove"
 msgstr "ה_סרה"
 
-#: src/ui/music-list.vala:428 src/ui/music-widgets.vala:286
+#: src/ui/music-list.vala:422 src/ui/music-widgets.vala:286
 msgid "_Move to Trash"
 msgstr "העברה ל_אשפה"
 
-#: src/ui/music-list.vala:636
+#: src/ui/music-list.vala:630
 msgid "Select All"
 msgstr "בחירת הכול"
 
-#: src/ui/music-list.vala:653
+#: src/ui/music-list.vala:647
 msgid "Play at Next"
 msgstr "הבא בתור"
 
-#: src/ui/music-list.vala:660
+#: src/ui/music-list.vala:654
 msgid "Add to Queue"
 msgstr "הוספה לתור"
 
 # msgctxt "shortcut window"
-#: src/ui/music-list.vala:667 src/ui/playlist-dialog.vala:19
+#: src/ui/music-list.vala:661 src/ui/playlist-dialog.vala:19
 msgid "Add to Playlist"
 msgstr "הוספה לרשימת נגינה"
 
-#: src/ui/music-list.vala:674
+#: src/ui/music-list.vala:668
 msgid "Remove"
 msgstr "הסרה"
 
 #: src/ui/music-widgets.vala:274 src/ui/music-widgets.vala:296
-#: src/ui/store-panel.vala:429
+#: src/ui/store-panel.vala:428
 msgid "Play"
 msgstr "ניגון"
 
@@ -472,15 +393,15 @@ msgstr "נגינה א_קראית"
 msgid "Show List _File"
 msgstr "הצגת _קובצי הרשימה"
 
-#: src/ui/music-widgets.vala:308 src/ui/play-panel.vala:60
+#: src/ui/music-widgets.vala:308 src/ui/play-panel.vala:63
 msgid "Search Title"
 msgstr "חיפוש כותרת"
 
-#: src/ui/music-widgets.vala:309 src/ui/play-panel.vala:58
+#: src/ui/music-widgets.vala:309 src/ui/play-panel.vala:61
 msgid "Search Album"
 msgstr "חיפוש אלבום"
 
-#: src/ui/music-widgets.vala:310 src/ui/play-panel.vala:59
+#: src/ui/music-widgets.vala:310 src/ui/play-panel.vala:62
 msgid "Search Artist"
 msgstr "חיפוש אומן"
 
@@ -518,7 +439,11 @@ msgstr "נגינה/השהיה"
 msgid "Play Next"
 msgstr "ניגון הרצועה הבאה"
 
-#: src/ui/play-panel.vala:263
+#: src/ui/play-panel.vala:56 src/ui/store-panel.vala:84
+msgid "Playing"
+msgstr "נגינה"
+
+#: src/ui/play-panel.vala:266
 msgid ""
 "Drag and drop music files here,\n"
 "or change music location: "
@@ -531,7 +456,7 @@ msgstr ""
 msgid "New Playlist"
 msgstr "רשימת נגינה חדשה"
 
-#: src/ui/playlist-dialog.vala:98 src/ui/store-panel.vala:703
+#: src/ui/playlist-dialog.vala:98 src/ui/store-panel.vala:712
 #, c-format
 msgid "No playlist found in %s"
 msgstr "לא נמצאו רשימות נגינה ב־%s"
@@ -551,10 +476,6 @@ msgstr "עם אומנות בלבד"
 #: src/ui/preferences.vala:66
 msgid "Track"
 msgstr "רצועה"
-
-#: src/ui/store-panel.vala:84
-msgid "Playing"
-msgstr "נגינה"
 
 #: src/ui/store-panel.vala:89
 msgid "Artists"
@@ -578,7 +499,7 @@ msgstr "העתקה"
 msgid "Volume %d%%"
 msgstr "עצמת שמע ‎%d%%"
 
-#: src/ui/window.vala:119
+#: src/ui/window.vala:127
 msgid "Show"
 msgstr "הצגה"
 
@@ -589,6 +510,80 @@ msgstr "אלבום לא ידוע"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "אומן לא ידוע"
+
+#~ msgid "Gapless"
+#~ msgstr "Gapless"
+
+#~ msgid ""
+#~ "Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
+#~ "focuses on large music collection."
+#~ msgstr ""
+#~ "‏Gapless (הידוע גם בשם: G4Music) הוא נגן מוזיקה קל משקל שנכתב ב־GTK4, "
+#~ "המתמקד באוספי מוזיקה גדולים."
+
+#~ msgid "Features"
+#~ msgstr "תכונות"
+
+#~ msgid ""
+#~ "Supports most music file types, Samba and any other remote protocols "
+#~ "(depends on GIO and GStreamer)."
+#~ msgstr ""
+#~ "תמיכה ברוב סוגי קבצי המוזיקה, Samba ופרוטוקולים מרוחקים אחרים (תלוי ב־GIO "
+#~ "ו־GStreamer)."
+
+#~ msgid ""
+#~ "Fast loading and parsing thousands of music files in very few seconds, "
+#~ "monitor local changes."
+#~ msgstr ""
+#~ "טעינה ופענוח מהירים של אלפי קובצי מוזיקה תוך שניות ספורות, מעקב אחר "
+#~ "שינויים מקומיים."
+
+#~ msgid ""
+#~ "Low memory usage for large music collection with album covers (embedded "
+#~ "and external), no thumbnail caches to store."
+#~ msgstr ""
+#~ "שימוש מועט בזיכרון עבור אוסף מוזיקה גדול עם עטיפות אלבומים (מוטבעות "
+#~ "וחיצוניות), ללא צורך באחסון מטמון של תמונות ממוזערות."
+
+#~ msgid ""
+#~ "Group and sorts by album/artist/title, shuffle list, full-text searching."
+#~ msgstr "קיבוץ ומיון לפי אלבום/אומן/כותרת, ערבוב רשימה, חיפוש טקסט מלא."
+
+#~ msgid ""
+#~ "Fluent adaptive user interface for different screen (Desktop, Tablet, "
+#~ "Mobile)."
+#~ msgstr "ממשק משתמש מסתגל ומותאם למסכים שונים (מחשב שולחני, מחשב לוח, נייד)."
+
+#~ msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
+#~ msgstr "עטיפת אלבום מטושטשת כרקע, מעקב אחר סגנון מערכת בהיר/כהה של GNOME."
+
+#~ msgid ""
+#~ "Supports creating and editing playlists, drag cover to change order or "
+#~ "add to another playlist."
+#~ msgstr ""
+#~ "תמיכה ביצירה ועריכה של רשימות נגינה, גרירת העטיפה תשנה את הסדר או תוסיף "
+#~ "לרשימת נגינה אחרת."
+
+#~ msgid "Supports drag and drop with other apps."
+#~ msgstr "תמיכה בגרירה מיישומים אחרים ואליהם."
+
+#~ msgid "Supports audio peaks visualizer."
+#~ msgstr "תמיכה בהדמיית שיאי אודיו."
+
+#~ msgid "Supports gapless playback."
+#~ msgstr "תמיכה בנגינה ללא הפסקות."
+
+#~ msgid "Supports normalizing volume with ReplayGain."
+#~ msgstr "תמיכה באיזון עצמת קול עם ReplayGain."
+
+#~ msgid "Supports specified audio sink."
+#~ msgstr "תמיכה בשקע השמע שצוין."
+
+#~ msgid "Supports MPRIS control."
+#~ msgstr "תמיכה בשליטת MPRIS."
+
+#~ msgid "A fast, fluent, light weight music player written in GTK4."
+#~ msgstr "נגן מוזיקה קל, מהיר וגמיש שנכתב ב־GTK4."
 
 #~ msgid "Play music"
 #~ msgstr "השמעת מוזיקה"
@@ -604,6 +599,3 @@ msgstr "אומן לא ידוע"
 
 #~ msgid "Close"
 #~ msgstr "סגירה"
-
-#~ msgid "G4Music"
-#~ msgstr "G4Music"

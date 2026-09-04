@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/neithern/g4music/issues\n"
-"POT-Creation-Date: 2026-06-09 13:38+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-04 03:15+0300\n"
 "PO-Revision-Date: 2026-06-19 12:52+0200\n"
 "Last-Translator: Davide Ferracin <davide.ferracin@icloud.com>\n"
 "Language-Team: Italian <gnome-it-list@gnome.org>\n"
@@ -17,10 +17,10 @@ msgstr ""
 "X-Generator: Gtranslator 50.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/application.vala:275
-#: src/main.vala:24
-msgid "Gapless"
-msgstr "Gapless"
+#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/main.vala:24
+#, fuzzy
+msgid "Music"
+msgstr "G4Music"
 
 #: data/app.desktop.in:3
 msgid "Music Player"
@@ -35,103 +35,22 @@ msgid "music;sound;player;media;audio;playlist;"
 msgstr "musica;suono;lettore;media;audio;scalette;"
 
 #: data/app.metainfo.xml.in:24
-msgid ""
-"Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
-"focuses on large music collection."
+msgid "Utile Music is an elegant music player for Linux designed for Utile OS."
 msgstr ""
-"Gapless (conosciuto anche come G4Music) è un lettore musicale leggero scritto in "
-"GTK4, focalizzato su grandi collezioni musicali."
-
-#: data/app.metainfo.xml.in:25
-msgid "Features"
-msgstr "Funzionalità"
-
-#: data/app.metainfo.xml.in:27
-msgid ""
-"Supports most music file types, Samba and any other remote protocols "
-"(depends on GIO and GStreamer)."
-msgstr ""
-"Supporto per la maggior parte dei formati, Samba e tutti gli altri "
-"protocolli remoti (in base a GIO e GStreamer)."
-
-#: data/app.metainfo.xml.in:28
-msgid ""
-"Fast loading and parsing thousands of music files in very few seconds, "
-"monitor local changes."
-msgstr ""
-"Caricamento e analisi di migliaia di file musicali in pochi secondi, e "
-"monitoraggio dei cambiamenti locali."
-
-#: data/app.metainfo.xml.in:29
-msgid ""
-"Low memory usage for large music collection with album covers (embedded and "
-"external), no thumbnail caches to store."
-msgstr ""
-"Ridotto consumo di memoria per grandi collezioni musicali con copertine (sia "
-"incorporate che esterne), nessuna cache di anteprime da memorizzare."
-
-#: data/app.metainfo.xml.in:30
-msgid ""
-"Group and sorts by album/artist/title, shuffle list, full-text searching."
-msgstr ""
-"Raggruppamento e ordinamento per album/artista/titolo, supporto a "
-"riproduzione casuale e ricerca testuale."
-
-#: data/app.metainfo.xml.in:31
-msgid ""
-"Fluent adaptive user interface for different screen (Desktop, Tablet, "
-"Mobile)."
-msgstr "Interfaccia adattiva per schermi diversi (desktop, tablet, telefoni)."
-
-#: data/app.metainfo.xml.in:32
-msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
-msgstr "Effetto di sfocamento per lo sfondo, stile chiaro e scuro di GNOME."
-
-#: data/app.metainfo.xml.in:33
-msgid ""
-"Supports creating and editing playlists, drag cover to change order or add "
-"to another playlist."
-msgstr ""
-"Creazione e la modifica di scalette, permettendo di trascinare le copertine "
-"per modificare l'ordine o aggiungere a nuove scalette."
-
-#: data/app.metainfo.xml.in:34
-msgid "Supports drag and drop with other apps."
-msgstr "Trascinamento e rilascio da e verso altre applicazioni."
 
 #: data/app.metainfo.xml.in:35
-msgid "Supports audio peaks visualizer."
-msgstr "Visualizzazione dei livelli di picco dell'audio."
-
-#: data/app.metainfo.xml.in:36
-msgid "Supports gapless playback."
-msgstr "Riproduzione senza interruzioni."
-
-#: data/app.metainfo.xml.in:37
-msgid "Supports normalizing volume with ReplayGain."
-msgstr "Normalizzazione del volume con ReplayGain."
-
-#: data/app.metainfo.xml.in:38
-msgid "Supports specified audio sink."
-msgstr "Supporto per dispositivi di uscita audio specifici."
-
-#: data/app.metainfo.xml.in:39
-msgid "Supports MPRIS control."
-msgstr "Supporto per i controlli MPRIS."
-
-#: data/app.metainfo.xml.in:50
 msgid "Main window"
 msgstr "Finestra principale"
 
-#: data/app.metainfo.xml.in:54
+#: data/app.metainfo.xml.in:39
 msgid "Albums view"
 msgstr "Vista album"
 
-#: data/app.metainfo.xml.in:58
+#: data/app.metainfo.xml.in:43
 msgid "Playing view"
 msgstr "Vista< riproduzione"
 
-#: data/app.metainfo.xml.in:62
+#: data/app.metainfo.xml.in:47
 msgid "Playlist view"
 msgstr "Vista scalette"
 
@@ -371,6 +290,11 @@ msgstr "Copertina esportata con successo"
 msgid "Export cover failed"
 msgstr "Esportazione della copertina non riuscita"
 
+#: src/application.vala:275
+#, fuzzy
+msgid "Utile Music"
+msgstr "Ripeti canzone"
+
 #: src/application.vala:348
 msgid "Save playlist failed"
 msgstr "Salvataggio della scaletta non riuscito"
@@ -578,8 +502,79 @@ msgstr "Album sconosciuto"
 msgid "Unknown Artist"
 msgstr "Artista sconosciuto"
 
-#~ msgid "G4Music"
-#~ msgstr "G4Music"
+#~ msgid "Gapless"
+#~ msgstr "Gapless"
+
+#~ msgid ""
+#~ "Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
+#~ "focuses on large music collection."
+#~ msgstr ""
+#~ "Gapless (conosciuto anche come G4Music) è un lettore musicale leggero "
+#~ "scritto in GTK4, focalizzato su grandi collezioni musicali."
+
+#~ msgid "Features"
+#~ msgstr "Funzionalità"
+
+#~ msgid ""
+#~ "Supports most music file types, Samba and any other remote protocols "
+#~ "(depends on GIO and GStreamer)."
+#~ msgstr ""
+#~ "Supporto per la maggior parte dei formati, Samba e tutti gli altri "
+#~ "protocolli remoti (in base a GIO e GStreamer)."
+
+#~ msgid ""
+#~ "Fast loading and parsing thousands of music files in very few seconds, "
+#~ "monitor local changes."
+#~ msgstr ""
+#~ "Caricamento e analisi di migliaia di file musicali in pochi secondi, e "
+#~ "monitoraggio dei cambiamenti locali."
+
+#~ msgid ""
+#~ "Low memory usage for large music collection with album covers (embedded "
+#~ "and external), no thumbnail caches to store."
+#~ msgstr ""
+#~ "Ridotto consumo di memoria per grandi collezioni musicali con copertine "
+#~ "(sia incorporate che esterne), nessuna cache di anteprime da memorizzare."
+
+#~ msgid ""
+#~ "Group and sorts by album/artist/title, shuffle list, full-text searching."
+#~ msgstr ""
+#~ "Raggruppamento e ordinamento per album/artista/titolo, supporto a "
+#~ "riproduzione casuale e ricerca testuale."
+
+#~ msgid ""
+#~ "Fluent adaptive user interface for different screen (Desktop, Tablet, "
+#~ "Mobile)."
+#~ msgstr ""
+#~ "Interfaccia adattiva per schermi diversi (desktop, tablet, telefoni)."
+
+#~ msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
+#~ msgstr "Effetto di sfocamento per lo sfondo, stile chiaro e scuro di GNOME."
+
+#~ msgid ""
+#~ "Supports creating and editing playlists, drag cover to change order or "
+#~ "add to another playlist."
+#~ msgstr ""
+#~ "Creazione e la modifica di scalette, permettendo di trascinare le "
+#~ "copertine per modificare l'ordine o aggiungere a nuove scalette."
+
+#~ msgid "Supports drag and drop with other apps."
+#~ msgstr "Trascinamento e rilascio da e verso altre applicazioni."
+
+#~ msgid "Supports audio peaks visualizer."
+#~ msgstr "Visualizzazione dei livelli di picco dell'audio."
+
+#~ msgid "Supports gapless playback."
+#~ msgstr "Riproduzione senza interruzioni."
+
+#~ msgid "Supports normalizing volume with ReplayGain."
+#~ msgstr "Normalizzazione del volume con ReplayGain."
+
+#~ msgid "Supports specified audio sink."
+#~ msgstr "Supporto per dispositivi di uscita audio specifici."
+
+#~ msgid "Supports MPRIS control."
+#~ msgstr "Supporto per i controlli MPRIS."
 
 #~ msgid "Play music"
 #~ msgstr "Riproduci musica"
@@ -589,9 +584,6 @@ msgstr "Artista sconosciuto"
 
 #~ msgid "A fast, fluent, light weight music player written in GTK4."
 #~ msgstr "Un lettore musicale veloce, scorrevole e leggero scritto in GTK4."
-
-#~ msgid "Repeat Music"
-#~ msgstr "Ripeti canzone"
 
 #~ msgid "Appearance"
 #~ msgstr "Aspetto"

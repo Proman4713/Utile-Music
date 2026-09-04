@@ -1,5 +1,5 @@
 project(
-  'utile_music', [ 'vala', 'c' ],
+  'utile-music', [ 'vala', 'c' ],
   version: '1.0.0',
   license: 'GPL3'
 )

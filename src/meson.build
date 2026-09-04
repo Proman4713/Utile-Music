@@ -47,7 +47,7 @@ conf.set_quoted('VERSION', version)
 conf.set_quoted('LOCALEDIR', get_option('prefix') / get_option('localedir'))
 configure_file(output: 'config.h', configuration: conf)
 
-c_name = meson.project_name()
+c_name = 'utile_music'
 res_name = c_name + '-resources'
 binary_name = 'utile-music'
 

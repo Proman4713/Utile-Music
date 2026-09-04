@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/neithern/g4music/issues\n"
-"POT-Creation-Date: 2025-11-16 06:55+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-04 03:15+0300\n"
 "PO-Revision-Date: 2026-04-03 13:20+0200\n"
 "Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
@@ -20,10 +20,9 @@ msgstr ""
 "20)) ? 1 : 2);\n"
 "X-Generator: Gtranslator 48.0\n"
 
-#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/application.vala:273
-#: src/main.vala:24
-msgid "Gapless"
-msgstr "Gapless"
+#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/main.vala:24
+msgid "Music"
+msgstr ""
 
 #: data/app.desktop.in:3
 msgid "Music Player"
@@ -38,109 +37,22 @@ msgid "music;sound;player;media;audio;playlist;"
 msgstr "music;sound;player;media;audio;playlist;muzică;sunet;listă de redare;"
 
 #: data/app.metainfo.xml.in:24
-msgid ""
-"Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
-"focuses on large music collection."
+msgid "Utile Music is an elegant music player for Linux designed for Utile OS."
 msgstr ""
-"Gapless (cunoscută și sub numele de G4Music) este o aplicație lejeră de "
-"redat muzică, scrisă în GTK4, concepută pentru a gestiona colecții mari de "
-"muzică."
-
-#: data/app.metainfo.xml.in:25
-msgid "Features"
-msgstr "Caracteristici"
-
-#: data/app.metainfo.xml.in:27
-msgid ""
-"Supports most music file types, Samba and any other remote protocols "
-"(depends on GIO and GStreamer)."
-msgstr ""
-"Este compatibilă cu majoritatea formatelor audio și cu protocoale de acces "
-"de la distanță precum Samba (prin GIO și GStreamer)."
-
-#: data/app.metainfo.xml.in:28
-msgid ""
-"Fast loading and parsing thousands of music files in very few seconds, "
-"monitor local changes."
-msgstr ""
-"Încarcă și procesează rapid mii de fișiere muzicale în câteva secunde, "
-"detectând automat schimbările locale."
-
-#: data/app.metainfo.xml.in:29
-msgid ""
-"Low memory usage for large music collection with album covers (embedded and "
-"external), no thumbnail caches to store."
-msgstr ""
-"Utilizare redusă a memoriei chiar și pentru colecții vaste de muzică cu "
-"coperți de albume (integrate sau externe), fără ca miniaturile să fie "
-"stocate în cache."
-
-#: data/app.metainfo.xml.in:30
-msgid ""
-"Group and sorts by album/artist/title, shuffle list, full-text searching."
-msgstr ""
-"Grupare și aranjare după album/artist/titlu, redare aleatorie, căutare în "
-"tot textul."
-
-#: data/app.metainfo.xml.in:31
-msgid ""
-"Fluent adaptive user interface for different screen (Desktop, Tablet, "
-"Mobile)."
-msgstr ""
-"Interfață adaptabilă și fluidă pentru diferite ecrane (calculator, tabletă, "
-"mobil)."
-
-#: data/app.metainfo.xml.in:32
-msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
-msgstr ""
-"Copertă estompată cu efect Gaussian ca fundal, sincronizare cu aspectul "
-"luminos/întunecos al interfeței GNOME."
-
-#: data/app.metainfo.xml.in:33
-msgid ""
-"Supports creating and editing playlists, drag cover to change order or add "
-"to another playlist."
-msgstr ""
-"Permite crearea și modificarea listelor de redare, cu posibilitatea de a "
-"trage coperțile pentru a schimba ordinea sau a fi adăugate la alte liste."
-
-#: data/app.metainfo.xml.in:34
-msgid "Supports drag and drop with other apps."
-msgstr "Permite tragerea și așezarea fișierelor între aplicații."
 
 #: data/app.metainfo.xml.in:35
-msgid "Supports audio peaks visualizer."
-msgstr "Indicator vizual al amplitudinii sunetului."
-
-#: data/app.metainfo.xml.in:36
-msgid "Supports gapless playback."
-msgstr "Permite redarea fără întrerupere."
-
-#: data/app.metainfo.xml.in:37
-msgid "Supports normalizing volume with ReplayGain."
-msgstr "Normalizează volumul cu ReplayGain"
-
-#: data/app.metainfo.xml.in:38
-msgid "Supports specified audio sink."
-msgstr "Permite alegerea ieșirii audio."
-
-#: data/app.metainfo.xml.in:39
-msgid "Supports MPRIS control."
-msgstr "Permite controlul MPRIS."
-
-#: data/app.metainfo.xml.in:50
 msgid "Main window"
 msgstr "Fereastra principală"
 
-#: data/app.metainfo.xml.in:54
+#: data/app.metainfo.xml.in:39
 msgid "Albums view"
 msgstr "Albume"
 
-#: data/app.metainfo.xml.in:58
+#: data/app.metainfo.xml.in:43
 msgid "Playing view"
 msgstr "Redare"
 
-#: data/app.metainfo.xml.in:62
+#: data/app.metainfo.xml.in:47
 msgid "Playlist view"
 msgstr "Lista de redare"
 
@@ -239,7 +151,7 @@ msgstr "Afișare tip grilă pentru artiști/albume"
 msgid "Single click to activate item"
 msgstr "Un clic pentru a activa elementul"
 
-#: src/gtk/preferences.ui:56 src/application.vala:434
+#: src/gtk/preferences.ui:56 src/application.vala:436
 msgid "Keep playing after window closed"
 msgstr "Continuă redarea după ce s-a închis fereastra"
 
@@ -379,19 +291,23 @@ msgstr "Copertă exportată cu succes"
 msgid "Export cover failed"
 msgstr "Nu s-a putut exporta coperta"
 
-#: src/application.vala:346
+#: src/application.vala:275
+msgid "Utile Music"
+msgstr ""
+
+#: src/application.vala:348
 msgid "Save playlist failed"
 msgstr "Nu s-a putut salva lista de redare"
 
-#: src/application.vala:470
+#: src/application.vala:472
 msgid "Playlist Files"
 msgstr "Fișiere Listă de redare"
 
-#: src/application.vala:485
+#: src/application.vala:487
 msgid "Save playlist successfully"
 msgstr "Listă de redare salvată cu succes"
 
-#: src/application.vala:620
+#: src/application.vala:622
 msgid "Keep playing"
 msgstr "Continuă redarea"
 
@@ -576,7 +492,7 @@ msgstr "Copiază"
 msgid "Volume %d%%"
 msgstr "Volum %d%%"
 
-#: src/ui/window.vala:126
+#: src/ui/window.vala:127
 msgid "Show"
 msgstr "Arată"
 
@@ -587,3 +503,82 @@ msgstr "Album necunoscut"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Artist necunoscut"
+
+#~ msgid "Gapless"
+#~ msgstr "Gapless"
+
+#~ msgid ""
+#~ "Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
+#~ "focuses on large music collection."
+#~ msgstr ""
+#~ "Gapless (cunoscută și sub numele de G4Music) este o aplicație lejeră de "
+#~ "redat muzică, scrisă în GTK4, concepută pentru a gestiona colecții mari "
+#~ "de muzică."
+
+#~ msgid "Features"
+#~ msgstr "Caracteristici"
+
+#~ msgid ""
+#~ "Supports most music file types, Samba and any other remote protocols "
+#~ "(depends on GIO and GStreamer)."
+#~ msgstr ""
+#~ "Este compatibilă cu majoritatea formatelor audio și cu protocoale de "
+#~ "acces de la distanță precum Samba (prin GIO și GStreamer)."
+
+#~ msgid ""
+#~ "Fast loading and parsing thousands of music files in very few seconds, "
+#~ "monitor local changes."
+#~ msgstr ""
+#~ "Încarcă și procesează rapid mii de fișiere muzicale în câteva secunde, "
+#~ "detectând automat schimbările locale."
+
+#~ msgid ""
+#~ "Low memory usage for large music collection with album covers (embedded "
+#~ "and external), no thumbnail caches to store."
+#~ msgstr ""
+#~ "Utilizare redusă a memoriei chiar și pentru colecții vaste de muzică cu "
+#~ "coperți de albume (integrate sau externe), fără ca miniaturile să fie "
+#~ "stocate în cache."
+
+#~ msgid ""
+#~ "Group and sorts by album/artist/title, shuffle list, full-text searching."
+#~ msgstr ""
+#~ "Grupare și aranjare după album/artist/titlu, redare aleatorie, căutare în "
+#~ "tot textul."
+
+#~ msgid ""
+#~ "Fluent adaptive user interface for different screen (Desktop, Tablet, "
+#~ "Mobile)."
+#~ msgstr ""
+#~ "Interfață adaptabilă și fluidă pentru diferite ecrane (calculator, "
+#~ "tabletă, mobil)."
+
+#~ msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
+#~ msgstr ""
+#~ "Copertă estompată cu efect Gaussian ca fundal, sincronizare cu aspectul "
+#~ "luminos/întunecos al interfeței GNOME."
+
+#~ msgid ""
+#~ "Supports creating and editing playlists, drag cover to change order or "
+#~ "add to another playlist."
+#~ msgstr ""
+#~ "Permite crearea și modificarea listelor de redare, cu posibilitatea de a "
+#~ "trage coperțile pentru a schimba ordinea sau a fi adăugate la alte liste."
+
+#~ msgid "Supports drag and drop with other apps."
+#~ msgstr "Permite tragerea și așezarea fișierelor între aplicații."
+
+#~ msgid "Supports audio peaks visualizer."
+#~ msgstr "Indicator vizual al amplitudinii sunetului."
+
+#~ msgid "Supports gapless playback."
+#~ msgstr "Permite redarea fără întrerupere."
+
+#~ msgid "Supports normalizing volume with ReplayGain."
+#~ msgstr "Normalizează volumul cu ReplayGain"
+
+#~ msgid "Supports specified audio sink."
+#~ msgstr "Permite alegerea ieșirii audio."
+
+#~ msgid "Supports MPRIS control."
+#~ msgstr "Permite controlul MPRIS."

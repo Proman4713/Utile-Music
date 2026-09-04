@@ -8,31 +8,56 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/neithern/g4music/-/issues\n"
-"POT-Creation-Date: 2023-08-16 08:46+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-04 03:15+0300\n"
 "PO-Revision-Date: 2023-08-16 08:46+0000\n"
 "Last-Translator: Alexandre Franke <afranke@gnome.org>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/app.desktop.in:3 src/application.vala:232 src/main.vala:24
-msgid "G4Music"
+#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/main.vala:24
+#, fuzzy
+msgid "Music"
 msgstr "G4Music"
 
-#: data/app.desktop.in:4
+#: data/app.desktop.in:3
 msgid "Music Player"
 msgstr "Lecteur de musique"
 
-#: data/app.desktop.in:5
-msgid "Play music"
-msgstr "Jouer de la musique"
+#: data/app.desktop.in:4 data/app.metainfo.xml.in:7
+msgid "Play your music elegantly"
+msgstr ""
 
-#: data/app.desktop.in:12
+#: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
 msgstr "musique;son;lecteur;média;audio;liste de lecture;"
+
+#: data/app.metainfo.xml.in:24
+msgid "Utile Music is an elegant music player for Linux designed for Utile OS."
+msgstr ""
+
+#: data/app.metainfo.xml.in:35
+#, fuzzy
+msgid "Main window"
+msgstr "Menu principal"
+
+#: data/app.metainfo.xml.in:39
+#, fuzzy
+msgid "Albums view"
+msgstr "Album"
+
+#: data/app.metainfo.xml.in:43
+#, fuzzy
+msgid "Playing view"
+msgstr "Lecture"
+
+#: data/app.metainfo.xml.in:47
+#, fuzzy
+msgid "Playlist view"
+msgstr "Playlist"
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -54,47 +79,58 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Quitter"
 
-#: src/gtk/help-overlay.ui:34
+#: src/gtk/help-overlay.ui:32
+msgctxt "shortcut window"
+msgid "Show Tags"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:40
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "Lecture"
 
-#: src/gtk/help-overlay.ui:37
+#: src/gtk/help-overlay.ui:43
 msgctxt "shortcut window"
 msgid "Play/Pause"
 msgstr "Lire/Suspendre"
 
-#: src/gtk/help-overlay.ui:43
+#: src/gtk/help-overlay.ui:49
 msgctxt "shortcut window"
 msgid "Play Next"
 msgstr "Lire la prochaine piste"
 
-#: src/gtk/help-overlay.ui:49
+#: src/gtk/help-overlay.ui:55
 msgctxt "shortcut window"
 msgid "Play Previous"
 msgstr "Lire la piste précédente"
 
-#: src/gtk/help-overlay.ui:57
+#: src/gtk/help-overlay.ui:63
 msgctxt "shortcut window"
 msgid "Playlist"
 msgstr "Playlist"
 
-#: src/gtk/help-overlay.ui:60
+#: src/gtk/help-overlay.ui:66
 msgctxt "shortcut window"
 msgid "Search"
 msgstr "Recherche"
 
-#: src/gtk/help-overlay.ui:66
+#: src/gtk/help-overlay.ui:72
 msgctxt "shortcut window"
 msgid "Toggle Sort"
 msgstr "Basculer le tri"
 
-#: src/gtk/help-overlay.ui:72
+#: src/gtk/help-overlay.ui:78
 msgctxt "shortcut window"
 msgid "Reload Library"
 msgstr "Recharger la collection"
 
-#: src/gtk/play-panel.ui:16 src/ui/store-panel.vala:340
+#: src/gtk/help-overlay.ui:84
+msgctxt "shortcut window"
+msgid "Save List"
+msgstr ""
+
+#: src/gtk/play-panel.ui:16 src/ui/music-list.vala:626
+#: src/ui/store-panel.vala:420
 msgid "Back"
 msgstr "Précédent"
 
@@ -103,22 +139,22 @@ msgid "General"
 msgstr "Général"
 
 #: src/gtk/preferences.ui:14
-msgid "Prefer dark theme"
-msgstr "Préférer le thème sombre"
-
-#: src/gtk/preferences.ui:26
 msgid "Background blur mode"
 msgstr "Mode de flou du fond"
 
-#: src/gtk/preferences.ui:32
+#: src/gtk/preferences.ui:20
 msgid "Compact playlist view"
 msgstr "Vue compacte de la liste de lecture"
 
-#: src/gtk/preferences.ui:44
+#: src/gtk/preferences.ui:32
 msgid "Grid view for artists/albums"
 msgstr "Vue en grille pour les artistes/albums"
 
-#: src/gtk/preferences.ui:56 src/application.vala:432
+#: src/gtk/preferences.ui:44
+msgid "Single click to activate item"
+msgstr ""
+
+#: src/gtk/preferences.ui:56 src/application.vala:436
 msgid "Keep playing after window closed"
 msgstr "Continuer la lecture après la fermeture de la fenêtre"
 
@@ -168,134 +204,255 @@ msgstr "Utiliser ReplayGain pour normaliser le volume"
 
 #: src/gtk/preferences.ui:164
 #, fuzzy
-msgid "Prefer audio sink"
+msgid "Prefer audio sink of GStreamer"
 msgstr "Utiliser la sortie audio pipewire"
 
-#: src/gtk/store-panel.ui:22
+#: src/gtk/store-panel.ui:23
 msgid "Main Menu"
 msgstr "Menu principal"
 
-#: src/gtk/store-panel.ui:28
-msgid "Sort By"
-msgstr "Critère de tri"
-
-#: src/gtk/store-panel.ui:35
+#: src/gtk/store-panel.ui:30 src/ui/playlist-dialog.vala:36
 msgid "Search"
 msgstr "Recherche"
 
+#: src/gtk/store-panel.ui:40
+msgid "Sort By"
+msgstr "Critère de tri"
+
+#: src/gtk/store-panel.ui:71
+msgid "_Color Scheme"
+msgstr ""
+
 #: src/gtk/store-panel.ui:73
+msgid "_System"
+msgstr ""
+
+#: src/gtk/store-panel.ui:78
+msgid "_Light"
+msgstr ""
+
+#: src/gtk/store-panel.ui:83
+msgid "_Dark"
+msgstr ""
+
+#: src/gtk/store-panel.ui:90
 msgid "_Reload Library"
 msgstr "_Recharger la collection"
 
-#: src/gtk/store-panel.ui:79
+#: src/gtk/store-panel.ui:94
+msgid "_Multiple Select"
+msgstr ""
+
+#: src/gtk/store-panel.ui:98
+msgid "_Save List"
+msgstr ""
+
+#: src/gtk/store-panel.ui:104
 msgid "_Preferences"
 msgstr "_Préférences"
 
-#: src/gtk/store-panel.ui:83
+#: src/gtk/store-panel.ui:108
 msgid "_Keyboard Shortcuts"
 msgstr "_Raccourcis clavier"
 
-#: src/gtk/store-panel.ui:87
+#: src/gtk/store-panel.ui:112
 msgid "_About"
 msgstr "À _propos"
 
-#: src/gtk/store-panel.ui:96 src/ui/preferences.vala:67
+#: src/gtk/store-panel.ui:121 src/ui/preferences.vala:66
 msgid "Album"
 msgstr "Album"
 
-#: src/gtk/store-panel.ui:101
+#: src/gtk/store-panel.ui:126
 msgid "Artist"
 msgstr "Artiste"
 
-#: src/gtk/store-panel.ui:106
+#: src/gtk/store-panel.ui:131
 msgid "Artist/Album"
 msgstr "Artiste/album"
 
-#: src/gtk/store-panel.ui:111
+#: src/gtk/store-panel.ui:136
 msgid "Title"
 msgstr "Titre"
 
-#: src/gtk/store-panel.ui:116
+#: src/gtk/store-panel.ui:141
 msgid "Recent"
 msgstr "Récent"
 
-#: src/gtk/store-panel.ui:121
+#: src/gtk/store-panel.ui:146
 msgid "Shuffle"
 msgstr "Mélanger"
 
-#: src/action-handles.vala:184
-msgid "A fast, fluent, light weight music player written in GTK4."
-msgstr "Un lecteur de musique GTK4 rapide, joli et léger."
+#: src/action-handles.vala:114
+msgid "Image Files"
+msgstr ""
 
-#. Translators: Replace "translator-credits" with your names, one name per line
-#: src/action-handles.vala:186
-msgid "translator-credits"
-msgstr "Aurélien Hamy\n"
-"Naqua Darazaki\n"
-"Alexandre Franke"
+#: src/action-handles.vala:121
+msgid "Export cover successfully"
+msgstr ""
 
-#: src/application.vala:613
+#: src/action-handles.vala:121
+#, fuzzy
+msgid "Export cover failed"
+msgstr "_Exporter la couverture"
+
+#: src/application.vala:275
+#, fuzzy
+msgid "Utile Music"
+msgstr "Répéter la piste"
+
+#: src/application.vala:348
+#, fuzzy
+msgid "Save playlist failed"
+msgstr "Vue compacte de la liste de lecture"
+
+#: src/application.vala:472
+#, fuzzy
+msgid "Playlist Files"
+msgstr "Liste de lecture"
+
+#: src/application.vala:487
+msgid "Save playlist successfully"
+msgstr ""
+
+#: src/application.vala:622
 msgid "Keep playing"
 msgstr "Continuer à jouer"
 
-#: src/ui/music-widgets.vala:251 src/ui/music-widgets.vala:292
-#: src/ui/music-widgets.vala:302
+#. Translators: Replace "translator-credits" with your names, one name per line
+#: src/ui/dialogs.vala:52
+msgid "translator-credits"
+msgstr ""
+"Aurélien Hamy\n"
+"Naqua Darazaki\n"
+"Alexandre Franke"
+
+#: src/ui/dialogs.vala:98 src/ui/dialogs.vala:110
+msgid "No"
+msgstr ""
+
+#: src/ui/dialogs.vala:99 src/ui/dialogs.vala:110
+msgid "Yes"
+msgstr ""
+
+#: src/ui/music-list.vala:270
+msgid "Playlist is modified, save it?"
+msgstr ""
+
+#. Translators: Play this music at next position of current playing music
+#: src/ui/music-list.vala:399 src/ui/music-list.vala:415
+#: src/ui/music-widgets.vala:277 src/ui/music-widgets.vala:299
+#, fuzzy
+msgid "Play at _Next"
+msgstr "Lire la piste suivante"
+
+#: src/ui/music-list.vala:401 src/ui/music-list.vala:417
+#: src/ui/music-widgets.vala:278 src/ui/music-widgets.vala:300
+msgid "Add to _Queue"
+msgstr ""
+
+#: src/ui/music-list.vala:402 src/ui/music-widgets.vala:279
+#: src/ui/music-widgets.vala:301 src/ui/music-widgets.vala:320
+msgid "Add to _Playlist…"
+msgstr ""
+
+#: src/ui/music-list.vala:403 src/ui/music-list.vala:421
+msgid "_Remove"
+msgstr ""
+
+#: src/ui/music-list.vala:422 src/ui/music-widgets.vala:286
+msgid "_Move to Trash"
+msgstr ""
+
+#: src/ui/music-list.vala:630
+msgid "Select All"
+msgstr ""
+
+#: src/ui/music-list.vala:647
 #, fuzzy
 msgid "Play at Next"
 msgstr "Lire la piste suivante"
 
-#: src/ui/music-widgets.vala:252 src/ui/music-widgets.vala:291
-#: src/ui/music-widgets.vala:301 src/ui/store-panel.vala:345
+#: src/ui/music-list.vala:654
+msgid "Add to Queue"
+msgstr ""
+
+#: src/ui/music-list.vala:661 src/ui/playlist-dialog.vala:19
+#, fuzzy
+msgid "Add to Playlist"
+msgstr "Playlist"
+
+#: src/ui/music-list.vala:668
+msgid "Remove"
+msgstr ""
+
+#: src/ui/music-widgets.vala:274 src/ui/music-widgets.vala:296
+#: src/ui/store-panel.vala:428
 msgid "Play"
 msgstr "Lire"
 
-#: src/ui/music-widgets.vala:255 src/ui/play-panel.vala:232
-msgid "Show _Cover File"
-msgstr "Afficher le fichier couverture"
+#: src/ui/music-widgets.vala:275 src/ui/music-widgets.vala:297
+msgid "_Random Play"
+msgstr ""
 
-#: src/ui/music-widgets.vala:257 src/ui/play-panel.vala:234
-msgid "_Export Cover"
-msgstr "_Exporter la couverture"
-
-#: src/ui/music-widgets.vala:294
-msgid "Show List File"
+#: src/ui/music-widgets.vala:285
+#, fuzzy
+msgid "Show List _File"
 msgstr "Afficher le fichier liste"
 
-#: src/ui/music-widgets.vala:308 src/ui/play-panel.vala:57
+#: src/ui/music-widgets.vala:308 src/ui/play-panel.vala:63
 msgid "Search Title"
 msgstr "Recherche le titre"
 
-#: src/ui/music-widgets.vala:309 src/ui/play-panel.vala:55
+#: src/ui/music-widgets.vala:309 src/ui/play-panel.vala:61
 msgid "Search Album"
 msgstr "Recherche l’album"
 
-#: src/ui/music-widgets.vala:310 src/ui/play-panel.vala:56
+#: src/ui/music-widgets.vala:310 src/ui/play-panel.vala:62
 msgid "Search Artist"
 msgstr "Rechercher l'artiste"
 
-#: src/ui/music-widgets.vala:311
-msgid "_Show Music File"
+#: src/ui/music-widgets.vala:314
+#, fuzzy
+msgid "Show Cover _File"
+msgstr "Afficher le fichier couverture"
+
+#: src/ui/music-widgets.vala:316
+msgid "_Export Cover"
+msgstr "_Exporter la couverture"
+
+#: src/ui/music-widgets.vala:317
+msgid "Show _Tags…"
+msgstr ""
+
+#: src/ui/music-widgets.vala:318
+#, fuzzy
+msgid "Show Music _File"
 msgstr "_Afficher le fichier musique"
 
-#: src/ui/play-bar.vala:75
-#, fuzzy
-msgid "Repeat Music"
-msgstr "Répéter la piste"
+#. Translators: single loop the current music
+#: src/ui/play-bar.vala:72
+msgid "Single Loop"
+msgstr ""
 
-#: src/ui/play-bar.vala:85
+#: src/ui/play-bar.vala:82
 msgid "Play Previous"
 msgstr "Lire la piste précédente"
 
 #. media-playback-pause-symbolic
-#: src/ui/play-bar.vala:91
+#: src/ui/play-bar.vala:88
 msgid "Play/Pause"
 msgstr "Lire/Suspendre"
 
-#: src/ui/play-bar.vala:98
+#: src/ui/play-bar.vala:95
 msgid "Play Next"
 msgstr "Lire la piste suivante"
 
-#: src/ui/play-panel.vala:275
+#: src/ui/play-panel.vala:56 src/ui/store-panel.vala:84
+msgid "Playing"
+msgstr "Lecture"
+
+#: src/ui/play-panel.vala:266
 msgid ""
 "Drag and drop music files here,\n"
 "or change music location: "
@@ -303,41 +460,57 @@ msgstr ""
 "Glissez et déposez vos fichiers de musique ici,\n"
 "ou changez l’emplacement de la musique : "
 
-#: src/ui/preferences.vala:46 src/ui/preferences.vala:67
+#: src/ui/playlist-dialog.vala:24
+#, fuzzy
+msgid "New Playlist"
+msgstr "Playlist"
+
+#: src/ui/playlist-dialog.vala:98 src/ui/store-panel.vala:712
+#, c-format
+msgid "No playlist found in %s"
+msgstr ""
+
+#: src/ui/preferences.vala:44 src/ui/preferences.vala:66
 msgid "Never"
 msgstr "Jamais"
 
-#: src/ui/preferences.vala:46
+#: src/ui/preferences.vala:44
 msgid "Always"
 msgstr "Toujours"
 
-#: src/ui/preferences.vala:46
+#: src/ui/preferences.vala:44
 msgid "Art Only"
 msgstr "Art uniquement"
 
-#: src/ui/preferences.vala:67
+#: src/ui/preferences.vala:66
 msgid "Track"
 msgstr "Piste"
 
-#: src/ui/store-panel.vala:74
-msgid "Playing"
-msgstr "Lecture"
-
-#: src/ui/store-panel.vala:79
+#: src/ui/store-panel.vala:89
 msgid "Artists"
 msgstr "Artiste"
 
-#: src/ui/store-panel.vala:84
+#: src/ui/store-panel.vala:94
 msgid "Albums"
 msgstr "Album"
 
-#: src/ui/store-panel.vala:374
+#: src/ui/store-panel.vala:99
 msgid "Playlists"
 msgstr "Liste de lecture"
 
-#: src/ui/volume-button.vala:32
-msgid "Volume: "
+#: src/ui/taglist-dialog.vala:125
+msgid "Copy"
+msgstr ""
+
+#. Translators: Current volume percent: 0~100%
+#: src/ui/volume-button.vala:33
+#, fuzzy, c-format
+msgid "Volume %d%%"
 msgstr "Volume : "
+
+#: src/ui/window.vala:127
+msgid "Show"
+msgstr ""
 
 #: src/utils/music.vala:2
 msgid "Unknown Album"
@@ -347,3 +520,11 @@ msgstr "Album inconnu"
 msgid "Unknown Artist"
 msgstr "Artiste inconnu"
 
+#~ msgid "Play music"
+#~ msgstr "Jouer de la musique"
+
+#~ msgid "Prefer dark theme"
+#~ msgstr "Préférer le thème sombre"
+
+#~ msgid "A fast, fluent, light weight music player written in GTK4."
+#~ msgstr "Un lecteur de musique GTK4 rapide, joli et léger."

@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/neithern/g4music/issues\n"
-"POT-Creation-Date: 2025-09-11 07:33+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-04 03:15+0300\n"
 "PO-Revision-Date: 2025-09-23 16:19-0300\n"
 "Last-Translator: Emilio Sepúlveda <emism.translations@gmail.com>\n"
 "Language-Team: Interlingua <softinterlingua@gmail.com>\n"
@@ -24,9 +24,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Gtranslator 48.0\n"
 
-#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/application.vala:273
-#: src/main.vala:24
-msgid "Gapless"
+#: data/app.desktop.in:2 data/app.metainfo.xml.in:4 src/main.vala:24
+msgid "Music"
 msgstr ""
 
 #: data/app.desktop.in:3
@@ -42,91 +41,22 @@ msgid "music;sound;player;media;audio;playlist;"
 msgstr "music;sound;player;media;audio;playlist;"
 
 #: data/app.metainfo.xml.in:24
-msgid ""
-"Gapless (AKA: G4Music) is a light weight music player written in GTK4, "
-"focuses on large music collection."
-msgstr ""
-
-#: data/app.metainfo.xml.in:25
-msgid "Features"
-msgstr "Functionalitates"
-
-#: data/app.metainfo.xml.in:27
-msgid ""
-"Supports most music file types, Samba and any other remote protocols "
-"(depends on GIO and GStreamer)."
-msgstr ""
-
-#: data/app.metainfo.xml.in:28
-msgid ""
-"Fast loading and parsing thousands of music files in very few seconds, "
-"monitor local changes."
-msgstr ""
-
-#: data/app.metainfo.xml.in:29
-msgid ""
-"Low memory usage for large music collection with album covers (embedded and "
-"external), no thumbnail caches to store."
-msgstr ""
-
-#: data/app.metainfo.xml.in:30
-msgid ""
-"Group and sorts by album/artist/title, shuffle list, full-text searching."
-msgstr ""
-
-#: data/app.metainfo.xml.in:31
-msgid ""
-"Fluent adaptive user interface for different screen (Desktop, Tablet, "
-"Mobile)."
-msgstr ""
-
-#: data/app.metainfo.xml.in:32
-msgid "Gaussian blurred cover as background, follows GNOME light/dark mode."
-msgstr ""
-
-#: data/app.metainfo.xml.in:33
-msgid ""
-"Supports creating and editing playlists, drag cover to change order or add "
-"to another playlist."
-msgstr ""
-
-#: data/app.metainfo.xml.in:34
-msgid "Supports drag and drop with other apps."
+msgid "Utile Music is an elegant music player for Linux designed for Utile OS."
 msgstr ""
 
 #: data/app.metainfo.xml.in:35
-msgid "Supports audio peaks visualizer."
-msgstr ""
-
-#: data/app.metainfo.xml.in:36
-msgid "Supports gapless playback."
-msgstr ""
-
-#: data/app.metainfo.xml.in:37
-msgid "Supports normalizing volume with ReplayGain."
-msgstr ""
-
-#: data/app.metainfo.xml.in:38
-msgid "Supports specified audio sink."
-msgstr ""
-
-#: data/app.metainfo.xml.in:39
-msgid "Supports MPRIS control."
-msgstr ""
-
-#: data/app.metainfo.xml.in:50
 msgid "Main window"
 msgstr "Fenestra principal"
 
-#: data/app.metainfo.xml.in:54
+#: data/app.metainfo.xml.in:39
 msgid "Albums view"
 msgstr "Vista de albumes"
 
-#: data/app.metainfo.xml.in:58
+#: data/app.metainfo.xml.in:43
 msgid "Playing view"
 msgstr "Vista de reproduction"
 
-#: data/app.metainfo.xml.in:62
+#: data/app.metainfo.xml.in:47
 msgid "Playlist view"
 msgstr "Vista de lista de reproduction"
 
@@ -225,7 +155,7 @@ msgstr "Vista de grillia pro artistas/albumes"
 msgid "Single click to activate item"
 msgstr "Clicca un vice pro activar le elemento"
 
-#: src/gtk/preferences.ui:56 src/application.vala:434
+#: src/gtk/preferences.ui:56 src/application.vala:436
 msgid "Keep playing after window closed"
 msgstr "Mantener reproduction depost le claudimento del fenestra"
 
@@ -365,19 +295,23 @@ msgstr ""
 msgid "Export cover failed"
 msgstr ""
 
-#: src/application.vala:346
+#: src/application.vala:275
+msgid "Utile Music"
+msgstr ""
+
+#: src/application.vala:348
 msgid "Save playlist failed"
 msgstr ""
 
-#: src/application.vala:470
+#: src/application.vala:472
 msgid "Playlist Files"
 msgstr "Files de lista de reproduction"
 
-#: src/application.vala:485
+#: src/application.vala:487
 msgid "Save playlist successfully"
 msgstr ""
 
-#: src/application.vala:620
+#: src/application.vala:622
 msgid "Keep playing"
 msgstr "Mantener le reproduction"
 
@@ -558,7 +492,7 @@ msgstr "Copiar"
 msgid "Volume %d%%"
 msgstr "Volumine %d%%"
 
-#: src/ui/window.vala:126
+#: src/ui/window.vala:127
 msgid "Show"
 msgstr "Monstrar"
 
@@ -569,3 +503,6 @@ msgstr "Album incognite"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Artista incognite"
+
+#~ msgid "Features"
+#~ msgstr "Functionalitates"
