@@ -17,12 +17,12 @@
 
   <maintainer>
     <foaf:Person>
-      <foaf:name>Nanling Zheng</foaf:name>
-      <foaf:mbox rdf:resource="mailto:neithern@outlook.com" />
+      <foaf:name>Aaser Abd-el Sabour</foaf:name>
+      <foaf:mbox rdf:resource="mailto:proman4713@gmail.com" />
       <foaf:account>
         <foaf:OnlineAccount>
-          <foaf:accountServiceHomepage rdf:resource="https://gitlab.gnome.org"/>
-          <foaf:accountName>neithern</foaf:accountName>
+          <foaf:accountServiceHomepage rdf:resource="https://github.com"/>
+          <foaf:accountName>Proman4713</foaf:accountName>
         </foaf:OnlineAccount>
       </foaf:account>
     </foaf:Person>

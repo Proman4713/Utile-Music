@@ -1,3 +1,9 @@
+utile-music (1.0.2) abstract; urgency=medium
+
+  * Implement proper accreditation.
+
+ -- Aaser Abd-el Sabour <proman4713@gmail.com>  Fri, 04 Sep 2026 03:51:19 +0300
+
 utile-music (1.0.1) abstract; urgency=medium
 
   * Update build configuration.

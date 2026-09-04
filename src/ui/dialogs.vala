@@ -47,11 +47,12 @@ namespace UtileMusic {
     }
 
     public void show_about_dialog (Application app) {
-        string[] authors = { "Nanling" };
+        string[] authors = { "Aaser Abd-el Sabour" };
         /* Translators: Replace "translator-credits" with your names, one name per line */
         var translator_credits = _("translator-credits");
         var website = "https://github.com/Proman4713/Utile-Music";
-        var parent = Window.get_default ();
+		var comments = _("An elegant music player designed for Utile OS");
+		var parent = Window.get_default ();
 #if ADW_1_5
         var win = new Adw.AboutDialog ();
         run_idle_once (() => {
@@ -65,11 +66,15 @@ namespace UtileMusic {
         win.application_icon = app.application_id;
         win.application_name = app.name;
         win.version = Config.VERSION;
-        win.license_type = Gtk.License.GPL_3_0;
+		win.comments = comments;
+		win.copyright = "© 2026 Aaser Abd-el Sabour\n© 2022 Nanling";
+		win.license_type = Gtk.License.GPL_3_0_ONLY;
         win.developers = authors;
         win.website = website;
         win.issue_url = "https://utile-os-web.mailworker.workers.dev";
         win.translator_credits = translator_credits;
+
+		win.add_credit_section (_("Original Project"), { "G4Music/Gapless by Nanling Zheng" });
 #if ADW_1_5
         win.present (parent);
 #else
@@ -82,10 +87,10 @@ namespace UtileMusic {
                                "logo-icon-name", app.application_id,
                                "program-name", app.name,
                                "version", Config.VERSION,
-                               // "comments", comments,
+                               "comments", comments,
                                "authors", authors,
                                "translator-credits", translator_credits,
-                               "license-type", Gtk.License.GPL_3_0,
+                               "license-type", Gtk.License.GPL_3_0_ONLY,
                                "website", website
                               );
 #endif
