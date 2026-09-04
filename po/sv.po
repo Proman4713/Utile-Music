@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2024-11-10 13:22+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -28,8 +28,8 @@ msgid "Music Player"
 msgstr "Musikspelare"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "Spela din musik elegant"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -508,6 +508,9 @@ msgstr "Okänt album"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Okänd artist"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "Spela din musik elegant"
 
 # Namnet på spelaren.
 #~ msgid "Gapless"

@@ -20,7 +20,7 @@
       <summary>Grid view for artists/albums</summary>
     </key>
     <key name="monitor-changes" type="b">
-      <default>false</default>
+      <default>true</default>
       <summary>Monitor local file changes</summary>
     </key>
     <key name="music-dir" type="s">
@@ -57,7 +57,7 @@
       <summary>Rotate album cover</summary>
     </key>
     <key name="peak-characters" type="s">
-      <default>'='</default>
+      <default>'—'</default>
       <summary>Peak characters</summary>
     </key>
     <key name="show-peak" type="b">

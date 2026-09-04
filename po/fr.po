@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2023-08-16 08:46+0000\n"
 "Last-Translator: Alexandre Franke <afranke@gnome.org>\n"
 "Language-Team: \n"
@@ -28,7 +28,7 @@ msgid "Music Player"
 msgstr "Lecteur de musique"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
+msgid "Enjoy listening to local music elegantly"
 msgstr ""
 
 #: data/app.desktop.in:11

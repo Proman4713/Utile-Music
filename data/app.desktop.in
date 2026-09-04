@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Music
 GenericName=Music Player
-Comment=Play your music elegantly
+Comment=Enjoy listening to local music elegantly
 Exec=utile-music %U
 Icon=@app_id@
 Terminal=false

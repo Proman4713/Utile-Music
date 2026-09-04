@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2025-09-13 00:09+0300\n"
 "Last-Translator: Dimitris Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: \n"
@@ -27,8 +27,8 @@ msgid "Music Player"
 msgstr "Αναπαραγωγή μουσικής"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "Ακούστε τη μουσική σας με κομψότητα"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -509,6 +509,9 @@ msgstr "Άγνωστο άλμπουμ"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Άγνωστος καλλιτέχνης"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "Ακούστε τη μουσική σας με κομψότητα"
 
 #~ msgid "Gapless"
 #~ msgstr "Gapless"

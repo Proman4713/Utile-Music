@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2024-09-30 13:20+0200\n"
 "Last-Translator: Daniel Rusek <mail@asciiwolf.com>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -27,8 +27,8 @@ msgid "Music Player"
 msgstr "Přehrávač hudby"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "Přehrávejte hudbu elegantně"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -519,6 +519,9 @@ msgstr "Neznámé album"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Neznámý umělec"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "Přehrávejte hudbu elegantně"
 
 #~ msgid "Gapless"
 #~ msgstr "Gapless"

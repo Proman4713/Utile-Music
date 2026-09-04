@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2025-01-13 16:21+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian <kde-i18n-doc@kde.org>\n"
@@ -29,8 +29,8 @@ msgid "Music Player"
 msgstr "پخش‌کنندهٔ آهنگ"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "پخش شیک آهنگ‌هایتان"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -511,6 +511,9 @@ msgstr "آلبوم ناشناخته"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "هنرمند ناشناس"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "پخش شیک آهنگ‌هایتان"
 
 #~ msgid "Gapless"
 #~ msgstr "بی‌وقفه"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2026-03-25 21:32+0100\n"
 "Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <Serbian>\n"
@@ -28,8 +28,8 @@ msgid "Music Player"
 msgstr "Програм за пуштање музике"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "Слушајте своју музику елегантно"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -510,6 +510,9 @@ msgstr "Непознат албум"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Непознат извођач"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "Слушајте своју музику елегантно"
 
 #~ msgid "Gapless"
 #~ msgstr "Вртешка"

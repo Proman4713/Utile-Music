@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2025-07-16 12:00+0600\n"
 "Last-Translator: AnmiTaliDev <anmitalli198@gmail.com>\n"
 "Language-Team: Kazakh <kk@li.org>\n"
@@ -25,8 +25,8 @@ msgid "Music Player"
 msgstr "Музыка ойнатқышы"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "Музыканы сәнді түрде ойнатыңыз"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -505,6 +505,9 @@ msgstr "Белгісіз альбом"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Белгісіз орындаушы"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "Музыканы сәнді түрде ойнатыңыз"
 
 #~ msgid "Gapless"
 #~ msgstr "Үзіліссіз"

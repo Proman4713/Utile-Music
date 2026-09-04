@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2026-03-23 14:57+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
@@ -28,8 +28,8 @@ msgid "Music Player"
 msgstr "Reprodutor de música"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "Oiça a sua música com elegância"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -510,6 +510,9 @@ msgstr "Álbum desconhecido"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Artista desconhecido"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "Oiça a sua música com elegância"
 
 #~ msgid "Gapless"
 #~ msgstr "Gapless"

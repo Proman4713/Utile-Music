@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2026-06-19 12:52+0200\n"
 "Last-Translator: Davide Ferracin <davide.ferracin@icloud.com>\n"
 "Language-Team: Italian <gnome-it-list@gnome.org>\n"
@@ -27,8 +27,8 @@ msgid "Music Player"
 msgstr "Lettore musicale"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "Riproduci la tua musica in maniera elegante"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -509,6 +509,9 @@ msgstr "Album sconosciuto"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Artista sconosciuto"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "Riproduci la tua musica in maniera elegante"
 
 #~ msgid "Gapless"
 #~ msgstr "Gapless"

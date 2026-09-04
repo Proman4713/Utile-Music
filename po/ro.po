@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2026-04-03 13:20+0200\n"
 "Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
@@ -29,8 +29,8 @@ msgid "Music Player"
 msgstr "Ascultă muzică"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "Ascultă propria muzică cu eleganță"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -511,6 +511,9 @@ msgstr "Album necunoscut"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Artist necunoscut"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "Ascultă propria muzică cu eleganță"
 
 #~ msgid "Gapless"
 #~ msgstr "Gapless"

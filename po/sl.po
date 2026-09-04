@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2024-10-11 14:31+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
@@ -29,8 +29,8 @@ msgid "Music Player"
 msgstr "Predvajalnik glasbe"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "Elegantno predvajajte glasbo"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -509,6 +509,9 @@ msgstr "Neznani album"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Neznani izvajalec"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "Elegantno predvajajte glasbo"
 
 #~ msgid "Gapless"
 #~ msgstr "Brez vrzeli"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2024-10-11 09:36+0800\n"
 "Last-Translator: Nanling <neithern@outlook.com>\n"
 "Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
@@ -29,8 +29,8 @@ msgid "Music Player"
 msgstr "音樂播放器"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "優雅地播放您的音樂"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -512,6 +512,9 @@ msgstr "未知專輯"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "未知藝術家"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "優雅地播放您的音樂"
 
 #~ msgid "Gapless"
 #~ msgstr "無暇"

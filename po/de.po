@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2024-10-28 10:35+0100\n"
 "Last-Translator: Jürgen Benvenuti <gastornis@posteo.org>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
@@ -28,8 +28,8 @@ msgid "Music Player"
 msgstr "Musikwiedergabe"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "Geben Sie Ihre Musik auf elegante Weise wieder"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -509,6 +509,9 @@ msgstr "Unbekanntes Album"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Unbekannter Interpret"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "Geben Sie Ihre Musik auf elegante Weise wieder"
 
 #~ msgid "Gapless"
 #~ msgstr "Gapless"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2024-10-23 22:55+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -29,8 +29,8 @@ msgid "Music Player"
 msgstr "Müzik Çalar"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "Müziğinizi zarifçe çalın"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -511,6 +511,9 @@ msgstr "Bilinmeyen Albüm"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Bilinmeyen Sanatçı"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "Müziğinizi zarifçe çalın"
 
 #~ msgid "Gapless"
 #~ msgstr "Aralıksız"

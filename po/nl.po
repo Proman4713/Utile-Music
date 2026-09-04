@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:54+0300\n"
+"POT-Creation-Date: 2026-09-04 15:40+0300\n"
 "PO-Revision-Date: 2024-10-30 18:08+0100\n"
 "Last-Translator: Nathan Follens <nfollens@gnome.org>\n"
 "Language-Team: GNOME-NL https://matrix.to/#/#nl:gnome.org\n"
@@ -28,8 +28,8 @@ msgid "Music Player"
 msgstr "Muziekspeler"
 
 #: data/app.desktop.in:4 data/app.metainfo.xml.in:7
-msgid "Play your music elegantly"
-msgstr "Speel uw muziek op elegante wijze af"
+msgid "Enjoy listening to local music elegantly"
+msgstr ""
 
 #: data/app.desktop.in:11
 msgid "music;sound;player;media;audio;playlist;"
@@ -512,6 +512,9 @@ msgstr "Onbekend album"
 #: src/utils/music.vala:3
 msgid "Unknown Artist"
 msgstr "Onbekende artiest"
+
+#~ msgid "Play your music elegantly"
+#~ msgstr "Speel uw muziek op elegante wijze af"
 
 #~ msgid "Gapless"
 #~ msgstr "Gapless"
