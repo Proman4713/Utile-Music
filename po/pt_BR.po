@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:15+0300\n"
+"POT-Creation-Date: 2026-09-04 03:54+0300\n"
 "PO-Revision-Date: 2024-10-13 00:14-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <https://br.gnome.org/traducao>\n"
@@ -321,11 +321,19 @@ msgstr ""
 "Fúlvio Leo <fulviokaldas@outlook.com>\n"
 "Rafael Fontenelle <rafaelff@gnome.org>"
 
-#: src/ui/dialogs.vala:98 src/ui/dialogs.vala:110
+#: src/ui/dialogs.vala:54
+msgid "An elegant music player designed for Utile OS"
+msgstr ""
+
+#: src/ui/dialogs.vala:77
+msgid "Original Project"
+msgstr ""
+
+#: src/ui/dialogs.vala:103 src/ui/dialogs.vala:115
 msgid "No"
 msgstr "Não"
 
-#: src/ui/dialogs.vala:99 src/ui/dialogs.vala:110
+#: src/ui/dialogs.vala:104 src/ui/dialogs.vala:115
 msgid "Yes"
 msgstr "Sim"
 

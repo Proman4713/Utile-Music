@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:15+0300\n"
+"POT-Creation-Date: 2026-09-04 03:54+0300\n"
 "PO-Revision-Date: 2025-09-23 16:19-0300\n"
 "Last-Translator: Emilio Sepúlveda <emism.translations@gmail.com>\n"
 "Language-Team: Interlingua <softinterlingua@gmail.com>\n"
@@ -320,11 +320,19 @@ msgstr "Mantener le reproduction"
 msgid "translator-credits"
 msgstr "Emilio Sepúlveda <emism.translations@gmail.com>"
 
-#: src/ui/dialogs.vala:98 src/ui/dialogs.vala:110
+#: src/ui/dialogs.vala:54
+msgid "An elegant music player designed for Utile OS"
+msgstr ""
+
+#: src/ui/dialogs.vala:77
+msgid "Original Project"
+msgstr ""
+
+#: src/ui/dialogs.vala:103 src/ui/dialogs.vala:115
 msgid "No"
 msgstr "No"
 
-#: src/ui/dialogs.vala:99 src/ui/dialogs.vala:110
+#: src/ui/dialogs.vala:104 src/ui/dialogs.vala:115
 msgid "Yes"
 msgstr "Si"
 

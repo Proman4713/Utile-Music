@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:15+0300\n"
+"POT-Creation-Date: 2026-09-04 03:54+0300\n"
 "PO-Revision-Date: 2026-06-19 12:52+0200\n"
 "Last-Translator: Davide Ferracin <davide.ferracin@icloud.com>\n"
 "Language-Team: Italian <gnome-it-list@gnome.org>\n"
@@ -316,11 +316,19 @@ msgstr "Continua la riproduzione"
 msgid "translator-credits"
 msgstr "Albano Battistella, Mek101, Legacychimera247"
 
-#: src/ui/dialogs.vala:98 src/ui/dialogs.vala:110
+#: src/ui/dialogs.vala:54
+msgid "An elegant music player designed for Utile OS"
+msgstr ""
+
+#: src/ui/dialogs.vala:77
+msgid "Original Project"
+msgstr ""
+
+#: src/ui/dialogs.vala:103 src/ui/dialogs.vala:115
 msgid "No"
 msgstr "No"
 
-#: src/ui/dialogs.vala:99 src/ui/dialogs.vala:110
+#: src/ui/dialogs.vala:104 src/ui/dialogs.vala:115
 msgid "Yes"
 msgstr "Si"
 

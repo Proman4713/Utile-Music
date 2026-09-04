@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: g4music\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 03:15+0300\n"
+"POT-Creation-Date: 2026-09-04 03:54+0300\n"
 "PO-Revision-Date: 2024-10-11 09:36+0800\n"
 "Last-Translator: Nanling <neithern@outlook.com>\n"
 "Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
@@ -319,11 +319,19 @@ msgstr ""
 "Julian\n"
 "Nanling"
 
-#: src/ui/dialogs.vala:98 src/ui/dialogs.vala:110
+#: src/ui/dialogs.vala:54
+msgid "An elegant music player designed for Utile OS"
+msgstr ""
+
+#: src/ui/dialogs.vala:77
+msgid "Original Project"
+msgstr ""
+
+#: src/ui/dialogs.vala:103 src/ui/dialogs.vala:115
 msgid "No"
 msgstr "否"
 
-#: src/ui/dialogs.vala:99 src/ui/dialogs.vala:110
+#: src/ui/dialogs.vala:104 src/ui/dialogs.vala:115
 msgid "Yes"
 msgstr "是"
 
