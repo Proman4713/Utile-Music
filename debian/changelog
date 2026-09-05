@@ -1,3 +1,10 @@
+utile-music (1.2.0.0) abstract; urgency=medium
+
+  * Add new version segment for Debian-specific changes
+  * Update README and icon
+
+ -- Aaser Abd-el Sabour <proman4713@gmail.com>  Sat, 05 Sep 2026 03:11:29 +0300
+
 utile-music (1.1.2) abstract; urgency=medium
 
   * Use upstream license–compliant copyright information

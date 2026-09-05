@@ -50,6 +50,11 @@
     </screenshots>
 
     <releases>
+        <release version="1.2.0" date="2026-09-04">
+            <description translate="no">
+                <p>Update logo.</p>
+            </description>
+        </release>
         <release version="1.1.0" date="2026-09-04">
             <description translate="no">
                 <p>Utile Music rebrand.</p>
