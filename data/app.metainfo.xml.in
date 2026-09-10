@@ -50,6 +50,12 @@
     </screenshots>
 
     <releases>
+        <release version="1.3.0" date="2026-09-04">
+            <description translate="no">
+                <p>Update logo.</p>
+				<p>This icon design update is aimed to better match what Utile OS as a whole aims to look like with smoother and more immersive iconography. Of course, the rest of the Yaru theme, which we inherit, doesn't match, but having a direction to go in should help us incrementally improve the overall look and feel.</p>
+            </description>
+        </release>
         <release version="1.2.0" date="2026-09-04">
             <description translate="no">
                 <p>Update logo.</p>
