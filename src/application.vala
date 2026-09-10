@@ -213,14 +213,31 @@ namespace UtileMusic {
             }
         }
 
-        private Gtk.IconPaintable? _icon = null;
+		/*
+			! The following fix is LLM-written and unverified. This project awaits a rewrite to Rust or Python where I can more intentionally fix bugs.
+		*/
 
-        public Gtk.IconPaintable? icon {
+        private Gdk.Paintable? _icon = null;
+
+        public Gdk.Paintable? icon {
             get {
                 if (_icon == null) {
                     var theme = Gtk.IconTheme.get_for_display (active_window.display);
-                    _icon = theme.lookup_icon (application_id, null, _cover_size,
+                    var icon_paintable = theme.lookup_icon (application_id, null, _cover_size,
                         active_window.scale_factor, Gtk.TextDirection.NONE, Gtk.IconLookupFlags.FORCE_REGULAR);
+                    // Load the SVG via Gdk.Texture (uses librsvg) instead of using
+                    // GtkIconPaintable directly, whose built-in GtkSvg renderer
+                    // doesn't fully support complex SVG filters (blur, inner shadows).
+                    var file = icon_paintable.get_file ();
+                    if (file != null) {
+                        try {
+                            _icon = Gdk.Texture.from_file ((!)file);
+                        } catch (Error e) {
+                            _icon = icon_paintable;
+                        }
+                    } else {
+                        _icon = icon_paintable;
+                    }
                 }
                 return _icon;
             }
